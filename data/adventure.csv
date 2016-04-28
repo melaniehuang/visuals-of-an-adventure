@@ -1,4 +1,4 @@
-dateArr,dateDep,Place,Type,Latitude,Longitude,Elevation
+dateArr,dateDep,Place,Type,Longitude,Latitude,Elevation
 2016-03-29,2016-04-03,Thailand,Country,15.870032,100.992541,190
 2016-03-29,2016-03-30,Bangkok,City,13.756321,100.501765,9
 2016-03-29,2016-03-30,Viman Guesthouse,Home,13.763447,100.497878,9
@@ -13,6 +13,7 @@ dateArr,dateDep,Place,Type,Latitude,Longitude,Elevation
 2016-04-03,2016-04-05,Rome,City,41.902774,12.496366,54
 2016-04-03,2016-04-05,Funny Palace Hostel,Home,41.902337,12.505897,57
 2016-04-03,2016-04-03,Colosseum,Attraction,41.89021,12.492231,23
+2016-04-04,2016-04-04,Andy spends all day in bed with runny bum syndrome,Moment,41.902337,12.505897,57
 2016-04-04,2016-04-04,Trattoria Dell'OMO,Restaurant,41.902964,12.502451,59
 2016-04-05,2016-04-12,Romania,Country,45.943161,24.96676,596
 2016-04-05,2016-04-06,Bucharest,City,44.426764,26.102538,72
@@ -88,3 +89,9 @@ dateArr,dateDep,Place,Type,Latitude,Longitude,Elevation
 2016-04-24,2016-04-24,Buffet Fife,Restaurant,43.507606,16.433765,8
 2016-04-24,2016-04-24,That time Andy drank another customers' drink,Moment,43.507606,16.433765,8
 2016-04-25,2016-04-25,Butter pasta,Moment,43.507606,16.433765,8
+2016-04-27,2016-04-27,Diocletian's Palace,Attraction,43.508354,16.440169,10
+2016-04-27,2016-04-27,Kod Joze,Restaurant,43.510257,16.441936,15
+2016-04-27,2016-04-27,Octopus Salad,Moment,43.510257,16.441936,15
+2016-04-28,2016-04-30,Trogir,City,43.515809,16.249972,2
+2016-04-28,2016-04-30,Cozy studio in Trogir old town,Home,43.516615,16.250285,4
+2016-04-28,2016-04-30,Medieval Festival,Attraction,43.515809,16.249972,2
