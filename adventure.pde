@@ -1,8 +1,4 @@
 Table adventure;
-
-FloatList longitudes;
-FloatList latitudes;
-
 String title;
 
 void setup() {
@@ -15,13 +11,11 @@ void setup() {
   fill(255,100);
   
   title = "Latitude";
-  FloatList latitudes = new FloatList();
-  latitudes = findMaxMin(latitudes, title);
+  FloatList latitudes = findMaxMin(title);
   println(latitudes);
   
   title = "Longitude";
-  FloatList longitudes = new FloatList();
-  longitudes = findMaxMin(longitudes, title);
+  FloatList longitudes = findMaxMin(title);
   println(longitudes);
   
   for (TableRow row : adventure.rows()) {    
@@ -44,21 +38,21 @@ void setup() {
   }   
 }
 
-FloatList findMaxMin(FloatList longOrLat, String rowTitle){
-  longOrLat = new FloatList();
+FloatList findMaxMin(String rowTitle){
+  FloatList values = new FloatList();
   
   for (TableRow row : adventure.rows()) {  
-    float latlongNum = row.getFloat(rowTitle);
-    longOrLat.append(latlongNum); 
+    float valNum = row.getFloat(rowTitle);
+    values.append(valNum); 
   }
   
   FloatList minMax;
   minMax = new FloatList();
   
-  float minNum = longOrLat.min();
+  float minNum = values.min();
   minMax.append(minNum);
   
-  float maxNum = longOrLat.max();
+  float maxNum = values.max();
   minMax.append(maxNum);
 
   return minMax;
