@@ -2,11 +2,7 @@ Table adventure;
 String title;
 
 void setup() {
-  size(1280,720);
-  background(44,48,255);
-  
   adventure = loadTable("adventure.csv", "header");
-  println(adventure.getRowCount() + " total rows in table"); 
   
   fill(255,100);
   
@@ -17,6 +13,9 @@ void setup() {
   title = "Longitude";
   FloatList longitudes = findMaxMin(title);
   println(longitudes);
+  
+  size(,720);
+  background(44,48,255);
   
   for (TableRow row : adventure.rows()) {    
     String goobley = row.getString("Type");
