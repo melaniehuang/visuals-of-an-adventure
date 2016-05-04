@@ -37,7 +37,7 @@ dateArr,dateDep,Place,Type,Longitude,Latitude,Elevation
 2016-04-09,2016-04-09,Rasnov Fortress,Attraction,45.590778,25.469594,737
 2016-04-09,2016-04-09,When Andy killed it at axe throwing,Moment,45.590778,25.469594,737
 2016-04-10,2016-04-10,Casada si Canionul 7 Scari,Attraction,45.566535,25.644096,1078
-2016-04-10,2016-04-10,Beer hut,Moment,45.566535,25.644096,1078
+2016-04-10,2016-04-10,Beer hut in the forest,Moment,45.566535,25.644096,1078
 2016-04-12,2016-04-12,Timisoara,City,45.748872,21.208679,89
 2016-04-13,2016-04-17,Serbia,Country,44.016521,21.005859,151
 2016-04-13,2016-04-13,Belgrade,City,44.786568,20.448922,156
@@ -45,11 +45,11 @@ dateArr,dateDep,Place,Type,Longitude,Latitude,Elevation
 2016-04-13,2016-04-13,Zavicaj Restaurant,Restaurant,44.809362,20.458392,92
 2016-04-13,2016-04-13,The first taste of Kajmak,Moment,44.809362,20.458392,92
 2016-04-14,2016-04-14,Muzej Kinoteke,Attraction,44.819703,20.456000,123
-2016-04-14,2016-04-14,Kolarac,Attraction,22.819122,20.456308,123
+2016-04-14,2016-04-14,Kolarac,Attraction,44.819703,20.456308,123
 2016-04-15,2016-04-15,Koffein,Restaurant,44.817835,20.454794,124
 2016-04-15,2016-04-15,Zavicaj Restaurant,Restaurant,44.809362,20.458392,92
 2016-04-16,2016-04-16,Nikola Tesla Museum,Attraction,44.805131,20.470734,142
-2016-04-16,2016-04-16,The most entertaining host,Moment,44.805131,20.470734,142
+2016-04-16,2016-04-16,The most entertaining host explaining Tesla's life,Moment,44.805131,20.470734,142
 2016-04-16,2016-04-16,Zavicaj Restaurant,Restaurant,44.809362,20.458392,92
 2016-04-17,2016-04-23,Slovenia,Country,46.151241,14.995463,829
 2016-04-17,2016-04-18,Ljubljana,City,46.056947,14.505751,402
@@ -73,6 +73,7 @@ dateArr,dateDep,Place,Type,Longitude,Latitude,Elevation
 2016-04-20,2016-04-20,Planika Market,Attraction,46.245607,13.584591,225
 2016-04-20,2016-04-22,Kamp Lazar,Home,46.255328,13.587152,218
 2016-04-20,2016-04-20,Meat and cheese pancakes,Moment,46.255328,13.587152,218
+2016-04-21,2016-04-21,The baby girl,Moment,46.255328,13.587152,218
 2016-04-21,2016-04-21,Grilled trout from the Soca,Moment,46.255328,13.587152,218
 2016-04-21,2016-04-21,Gostisce Jazbec,Restaurant,46.23356,13.589741,211
 2016-04-22,2016-04-23,Postojna,City,45.774970,14.213325,562
@@ -87,8 +88,10 @@ dateArr,dateDep,Place,Type,Longitude,Latitude,Elevation
 2016-04-23,2016-04-27,Old town apartment Split,Home,43.50707,16.444822,20
 2016-04-24,2016-04-24,Filming Wendy's birthday routine,Moment,43.50707,16.444822,20
 2016-04-24,2016-04-24,Buffet Fife,Restaurant,43.507606,16.433765,8
+2016-04-24,2016-04-24,The time the waiter had sold out of everything,Moment,43.507606,16.433765,8
 2016-04-24,2016-04-24,That time Andy drank another customers' drink,Moment,43.507606,16.433765,8
 2016-04-25,2016-04-25,Butter pasta,Moment,43.507606,16.433765,8
+2016-04-25,2016-04-25,Charlie's bar,Attraction,43.508132,16.440193,7
 2016-04-27,2016-04-27,Diocletian's Palace,Attraction,43.508354,16.440169,10
 2016-04-27,2016-04-27,Kod Joze,Restaurant,43.510257,16.441936,15
 2016-04-27,2016-04-27,Octopus Salad,Moment,43.510257,16.441936,15
@@ -99,3 +102,31 @@ dateArr,dateDep,Place,Type,Longitude,Latitude,Elevation
 2016-04-29,2016-04-29,Andy catching a sea urchin and a rag,Moment,43.515809,16.249972,2
 2016-04-29,2016-04-29,Procession of regal knights and ladies,Moment,43.515809,16.249972,2
 2016-04-29,2016-04-29,Battle of knights,Moment,43.515809,16.249972,2
+2016-04-30,2016-04-30,Catching a hat,Moment,43.515809,16.249972,2
+2016-05-01,2016-05-01,The girl that missed the airport on the bus,Moment,43.508132,16.440193,7
+2016-05-01,2016-05-01,Finally getting our fish soup,Moment,43.508132,16.440193,7
+2016-05-02,2016-05-02,Sleeping on the floor in between chairs on the ferry,Moment,43.508132,16.440193,7
+2016-05-02,2016-05-05,Italy,Country,41.871941,12.567385,182
+2016-05-02,2016-05-02,Ancona,City,43.515809,16.249972,2
+2016-05-02,2016-05-05,Rome,City,41.902774,12.496366,54
+2016-05-02,2016-05-05,Luca's The Guesthouse,Home,41.902774,12.496366,54
+2016-05-02,2016-05-02,Vatican City,Attraction,40.0,12.0,1
+2016-05-02,2016-05-02,Sistine Chapel,Attraction,40.0,12.0,1
+2016-05-02,2016-05-02,Regine Roma was closed,Moment,40.0,12.0,1
+2016-05-02,2016-05-02,Villa Restaurant,Restaurant,40.0,12.0,1
+2016-05-02,2016-05-02,The first taste of spaghetti with clams,Moment,40.0,12.0,1
+2016-05-03,2016-05-03,Vecchia Roma,Restuarant,40.0,12.0,1
+2016-05-03,2016-05-03,Dawdling tipsy to the Patheon,Moment,40.0,12.0,1
+2016-05-03,2016-05-03,Stumbling across the Irish pub of Andrea and Francesa,Moment,40.0,12.0,1
+2016-05-03,2016-05-03,The Patheon,Attraction,40.0,12.0,1
+2016-05-03,2016-05-03,Church of St. Ignatius,Attraction,40.0,12.0,1
+2016-05-03,2016-05-03,Andrea Pozzo's masterpiece fresco on the ceiling of St. Ignatius,Attraction,40.0,12.0,1
+2016-05-04,2016-05-04,"Chatting with Luca about his hometown,travels and family",Moment,40.0,12.0,1
+2016-05-04,2016-05-04,Ostia Antica,Attraction,40.0,12.0,1
+2016-05-04,2016-05-04,L'Alimentari,Restaurant,40.0,12.0,1
+2016-05-04,2016-05-04,The remarkable pasta and meat and cheese board,Restaurant,40.0,12.0,1
+2016-05-04,2016-05-04,The Baths of Mithras,Attraction,40.0,12.0,1
+2016-05-04,2016-05-04,Sleeping on the floor of the airport with Bunts as watchguard,Moment,40.0,12.0,1
+2016-05-05,2016-05-00,Greece,Country,40.0,12.0,1
+2016-05-05,2016-05-07,Athens,City,40.0,12.0,1
+2016-05-05,2016-05-07,Apartment 65m2 in Acharnes,Home,40.0,12.0,1
