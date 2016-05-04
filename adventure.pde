@@ -24,6 +24,9 @@ void setup() {
   
   StringList countryList;
   countryList = new StringList();
+  
+  StringList cityList;
+  cityList = new StringList();
 
   for (TableRow row : adventure.rows()) {    
     fill(255, 100);
@@ -54,7 +57,17 @@ void setup() {
        textSize(28);
        text(placeName, latitude, longitude-30);
     }
+    
+    if (type.equals("City")){
+       cityList.append(placeName);
+       fill(255,30);
+       textAlign(CENTER, CENTER);
+       textSize(14);
+       text(placeName, latitude, longitude);
+    }
+    
     println(countryList);
+    println(cityList);
   }
 }
 
