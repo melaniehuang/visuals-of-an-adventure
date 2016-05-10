@@ -93,7 +93,7 @@ dateArr,dateDep,Place,Type,Longitude,Latitude,Elevation
 2016-04-29,2016-04-29,Procession of regal knights and ladies,Moment,43.515809,16.249972,2
 2016-04-29,2016-04-29,Battle of knights,Moment,43.515809,16.249972,2
 2016-04-30,2016-04-30,Catching a hat,Moment,43.515809,16.249972,2
-2016-05-01,2016-05-01,The girl that missed the airport on the bus,Moment,43.508132,16.440193,7
+2016-05-01,2016-05-01,The angry girl that missed the airport on the bus,Moment,43.508132,16.440193,7
 2016-05-01,2016-05-01,Finally getting our fish soup,Moment,43.508132,16.440193,7
 2016-05-02,2016-05-02,Sleeping on the floor in between chairs on the ferry,Moment,43.508132,16.440193,7
 2016-05-02,2016-05-05,Italy,Country,41.871941,12.567385,182
@@ -110,7 +110,7 @@ dateArr,dateDep,Place,Type,Longitude,Latitude,Elevation
 2016-05-03,2016-05-03,Stumbling across the Irish pub of Andrea and Francesa,Moment,40.0,12.0,1
 2016-05-03,2016-05-03,The Patheon,Attraction,40.0,12.0,1
 2016-05-03,2016-05-03,Church of St. Ignatius,Attraction,40.0,12.0,1
-2016-05-03,2016-05-03,Andrea Pozzo's masterpiece fresco on the ceiling of St. Ignatius,Attraction,40.0,12.0,1
+2016-05-03,2016-05-03,Andrea Pozzo's masterpiece fresco on the St. Ignatius ceiling,Attraction,40.0,12.0,1
 2016-05-04,2016-05-04,"Chatting with Luca about his hometown,travels and family",Moment,40.0,12.0,1
 2016-05-04,2016-05-04,Ostia Antica,Attraction,40.0,12.0,1
 2016-05-04,2016-05-04,L'Alimentari,Restaurant,40.0,12.0,1
@@ -118,5 +118,18 @@ dateArr,dateDep,Place,Type,Longitude,Latitude,Elevation
 2016-05-04,2016-05-04,The Baths of Mithras,Attraction,40.0,12.0,1
 2016-05-04,2016-05-04,Sleeping on the floor of the airport with Bunts as watchguard,Moment,40.0,12.0,1
 2016-05-05,2016-05-00,Greece,Country,40.0,12.0,1
-2016-05-05,2016-05-07,Athens,City,40.0,12.0,1
+2016-05-05,2016-05-10,Athens,City,40.0,12.0,1
+2016-05-05,2016-05-05,Sabor,Restaurant,40.0,12.0,1
 2016-05-05,2016-05-07,Apartment 65m2 in Acharnes,Home,40.0,12.0,1
+2016-05-06,2016-05-06,The day Athens went on strike and we waited for a bus and train,Moment,40.0,12.0,1
+2016-05-06,2016-05-06,Epirus Tavern,Restaurant,40.0,12.0,1
+2016-05-06,2016-05-06,Fisherman's Tavern,Restaurant,40.0,12.0,1
+2016-05-07,2016-05-10,Michel's Cozy Apartment,Home,40.0,12.0,1
+2016-05-08,2016-05-08,Acropolis,Attraction,40.0,12.0,1
+2016-05-08,2016-05-08,Walking tour with Stick Reeves,Moment,40.0,12.0,1
+2016-05-09,2016-05-09,Fisherman's Tavern,Restaurant,40.0,12.0,1
+2016-05-10,2016-05-16,Milos,City,40.0,12.0,1
+2016-05-10,2016-05-16,Delmar Apartments and Suites,40.0,12.0,1
+2016-05-16,2016-05-19,Santorini,City,40.0,12.0,1
+2016-05-19,2016-05-19,Italy,Country,41.871941,12.567385,182
+2016-05-19,2016-05-19,Milan,City,40.0,12.0,1

@@ -20,3 +20,6 @@ dateTravel,from,fromLong,fromLat,fromElevation,to,toLong,toLat,toElevation,trans
 2016-05-01,Split,43.508132,16.440193,7,Ancona,43.515809,16.249972,2,Ferry,12:00
 2016-05-02,Ancona,43.515809,16.249972,2,Rome,41.902774,12.496366,54,Train,3:10
 2016-05-05,Rome,41.902774,12.496366,54,Athens,40.0,12.0,1,Plane,1:55
+2016-05-10,Athens,40.0,12.0,1,Milos,40.0,12.0,1,Ferry,7:40
+2016-05-16,Milos,40.0,12.0,1,Santorini,40.0,12.0,1,Ferry,6:30
+2016-05-19,Santorini,40.0,12.0,1,Milan,40.0,12.0,1,Plane,2:00
