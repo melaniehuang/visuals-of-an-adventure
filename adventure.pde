@@ -4,14 +4,14 @@ String title;
 void setup() {
   adventure = loadTable("adventure.csv", "header");
 
-  title = "latitude";
+  title = "Latitude";
   FloatList latitudes = findMaxMin(title);
   println(latitudes);
 
   float latMin = latitudes.get(0);
   float latMax = latitudes.get(1);
 
-  title = "longitude";
+  title = "Longitude";
   FloatList longitudes = findMaxMin(title);
   println(longitudes);
 
@@ -41,16 +41,13 @@ void setup() {
     float longitude = row.getFloat("Longitude");
     longitude = map(longitude, longMax, longMin, 100, height-100); 
 
-    float elevation = row.getFloat("Elevation");
-    //5m to 1078m
-
     noStroke();
     ellipse(latitude,longitude, 8, 8);
     
-    String type = row.getString("type"); 
-    String placeName = row.getString("place"); 
+    String type = row.getString("Type"); 
+    String placeName = row.getString("Place"); 
     
-    if (type.equals("country")){
+    if (type.equals("Country")){
       countryList.append(placeName);
       fill(255,60);
       textAlign(CENTER, CENTER);
@@ -58,12 +55,19 @@ void setup() {
       text(placeName, latitude, longitude-30);
     }
     
-    if (type.equals("city")){
+    if (type.equals("City")){
       cityList.append(placeName);
       fill(255,30);
       textAlign(CENTER, CENTER);
       textSize(14);
       text(placeName, latitude, longitude);
+    }
+    
+    PImage img = loadImage("country-test.png","png");
+    imageMode(CENTER);
+    
+    if (placeName.equals("Germany")){
+      image(img,latitude, longitude,width/8,height/4);
     }
     
     println(countryList);
