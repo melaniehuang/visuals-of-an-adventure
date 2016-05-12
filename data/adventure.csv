@@ -100,36 +100,47 @@ dateArr,dateDep,Place,Type,Longitude,Latitude,Elevation
 2016-05-02,2016-05-02,Ancona,City,43.515809,16.249972,2
 2016-05-02,2016-05-05,Rome,City,41.902774,12.496366,54
 2016-05-02,2016-05-05,Luca's The Guesthouse,Home,41.902774,12.496366,54
-2016-05-02,2016-05-02,Vatican City,Attraction,40.0,12.0,1
-2016-05-02,2016-05-02,Sistine Chapel,Attraction,40.0,12.0,1
-2016-05-02,2016-05-02,Regine Roma was closed,Moment,40.0,12.0,1
-2016-05-02,2016-05-02,Villa Restaurant,Restaurant,40.0,12.0,1
-2016-05-02,2016-05-02,The first taste of spaghetti with clams,Moment,40.0,12.0,1
-2016-05-03,2016-05-03,Vecchia Roma,Restuarant,40.0,12.0,1
-2016-05-03,2016-05-03,Dawdling tipsy to the Patheon,Moment,40.0,12.0,1
-2016-05-03,2016-05-03,Stumbling across the Irish pub of Andrea and Francesa,Moment,40.0,12.0,1
-2016-05-03,2016-05-03,The Patheon,Attraction,40.0,12.0,1
-2016-05-03,2016-05-03,Church of St. Ignatius,Attraction,40.0,12.0,1
-2016-05-03,2016-05-03,Andrea Pozzo's masterpiece fresco on the St. Ignatius ceiling,Attraction,40.0,12.0,1
-2016-05-04,2016-05-04,"Chatting with Luca about his hometown,travels and family",Moment,40.0,12.0,1
-2016-05-04,2016-05-04,Ostia Antica,Attraction,40.0,12.0,1
-2016-05-04,2016-05-04,L'Alimentari,Restaurant,40.0,12.0,1
-2016-05-04,2016-05-04,The remarkable pasta and meat and cheese board,Restaurant,40.0,12.0,1
-2016-05-04,2016-05-04,The Baths of Mithras,Attraction,40.0,12.0,1
-2016-05-04,2016-05-04,Sleeping on the floor of the airport with Bunts as watchguard,Moment,40.0,12.0,1
-2016-05-05,2016-05-00,Greece,Country,40.0,12.0,1
-2016-05-05,2016-05-10,Athens,City,40.0,12.0,1
-2016-05-05,2016-05-05,Sabor,Restaurant,40.0,12.0,1
-2016-05-05,2016-05-07,Apartment 65m2 in Acharnes,Home,40.0,12.0,1
-2016-05-06,2016-05-06,The day Athens went on strike and we waited for a bus and train,Moment,40.0,12.0,1
-2016-05-06,2016-05-06,Epirus Tavern,Restaurant,40.0,12.0,1
-2016-05-06,2016-05-06,Fisherman's Tavern,Restaurant,40.0,12.0,1
-2016-05-07,2016-05-10,Michel's Cozy Apartment,Home,40.0,12.0,1
-2016-05-08,2016-05-08,Acropolis,Attraction,40.0,12.0,1
-2016-05-08,2016-05-08,Walking tour with Stick Reeves,Moment,40.0,12.0,1
-2016-05-09,2016-05-09,Fisherman's Tavern,Restaurant,40.0,12.0,1
-2016-05-10,2016-05-16,Milos,City,40.0,12.0,1
-2016-05-10,2016-05-16,Delmar Apartments and Suites,40.0,12.0,1
-2016-05-16,2016-05-19,Santorini,City,40.0,12.0,1
+2016-05-02,2016-05-02,Vatican City and the Sistine Chapel,Attraction,41.902916,12.453389.0,40
+2016-05-02,2016-05-02,Regine Roma was closed,Moment,41.887889,12.473473,18
+2016-05-02,2016-05-02,La Villetta,Restaurant,41.889155,12.475037,18
+2016-05-02,2016-05-02,The first taste of spaghetti with clams,Moment,41.889155,12.475037,18
+2016-05-03,2016-05-03,Vecchia Roma,Restuarant,41.893751,12.502419,49
+2016-05-03,2016-05-03,Dawdling tipsy to the Patheon,Moment,41.893751,12.502419,49
+2016-05-03,2016-05-03,Stumbling across the Irish pub of Andrea and Francesa,Moment,41.895824,12.498967,54
+2016-05-03,2016-05-03,The Patheon,Attraction,41.898611,12.476873,16
+2016-05-03,2016-05-03,Chiesa di Sant' Ignaio di Loyola,Attraction,41.898753,12.479869,17
+2016-05-03,2016-05-03,Andrea Pozzo's masterpiece fresco on the St. Ignatius ceiling,Attraction,41.898753,12.479869,17
+2016-05-04,2016-05-04,"Chatting with Luca about his hometown,travels and family",Moment,41.902774,12.496366,54
+2016-05-04,2016-05-04,Ostia Antica,Attraction,41.7581358,12.2999278,4
+2016-05-04,2016-05-04,L'Alimentari,Restaurant,41.7601475,12.3022675,5
+2016-05-04,2016-05-04,The remarkable pasta and meat and cheese board,Restaurant,41.7601475,12.3022675,5
+2016-05-04,2016-05-04,The Baths of Mithras,Attraction,41.7581358,12.2999278,4
+2016-05-04,2016-05-04,Sleeping on the floor of the airport with Bunts as watchguard,Moment,41.7993349,12.5903283,114
+2016-05-05,2016-05-00,Greece,Country,39.074208,21.824312,890
+2016-05-05,2016-05-10,Athens,City,37.983917,23.7293599,70
+2016-05-05,2016-05-05,Sabor,Restaurant,37.9765486,23.7311144,78
+2016-05-05,2016-05-07,Apartment 65m2 in Acharnes,Home,38.09456422,23.75021115,200
+2016-05-06,2016-05-06,The day Athens went on strike and we waited for a bus and train,Moment,38.09456422,23.75021115,200
+2016-05-06,2016-05-06,Epirus Tavern,Restaurant,37.980034,23.728319,72
+2016-05-06,2016-05-06,Fisherman's Tavern,Restaurant,37.9729061,23.7285505,93
+2016-05-07,2016-05-10,Michel's Cozy Apartment,Home,37.9625693,23.7302023,76
+2016-05-08,2016-05-08,Acropolis,Attraction,37.9715323,23.7257492,151
+2016-05-08,2016-05-08,Walking tour with Stick Reeves,Moment,37.9715323,23.7257492,151
+2016-05-09,2016-05-09,Fisherman's Tavern,Restaurant,37.9729061,23.7285505,93
+2016-05-10,2016-05-10,Fastest Taxi in Athens,Moment,37.9429857,23.6469832,14
+2016-05-10,2016-05-16,Milos,City,36.6914464,24.3935655,153
+2016-05-10,2016-05-16,Pollonia,City,36.7633018,24.5261446,3
+2016-05-10,2016-05-16,Delmar Apartments and Suites,36.763164,24.525706,3
+2016-05-10,2016-05-10,Armenaki,Restaurant,36.763624,24.525818,2
+2016-05-10,2016-05-10,O Belivanis,Restaurant,36.7416996,24.4322862,114
+2016-05-10,2016-05-10,Confusion over how to possibly get a souvlaki,Moment,36.7416996,24.4322862,114
+2016-05-10,2016-05-10,Our off road adventure to the grocery store for two souvlakis and a juice box,Moment,36.725406,24.4467247,5
+2016-05-11,2016-05-11,Tsigrado,Attraction,36.6623485,24.468731,23
+2016-05-11,2016-05-11,Entrance down the cliff to the beach,Moment,36.6623485,24.468731,23
+2016-05-11,2016-05-11,Blue cove,Moment,36.6623485,24.468731,23
+2016-05-11,2016-05-11,Firiplaka Beach,Attraction,36.6657089,24.4657953,13
+2016-05-11,2016-05-11,Sarakiniko Moon Beach,Attraction,36.7427272,24.4582915,10
+2016-05-17,2016-05-19,Santorini,City,36.3931562,25.4615092,95
+2016-05-17,2016-05-19,Thea Studios,36.41456552,25.43932557,160 
 2016-05-19,2016-05-19,Italy,Country,41.871941,12.567385,182
-2016-05-19,2016-05-19,Milan,City,40.0,12.0,1
+2016-05-19,2016-05-19,Milan,City,45.4654219,9.1859243,122
