@@ -4,14 +4,14 @@ String title;
 void setup() {
   adventure = loadTable("adventure.csv", "header");
 
-  title = "Latitude";
+  title = "latitude";
   FloatList latitudes = findMaxMin(title);
   println(latitudes);
 
   float latMin = latitudes.get(0);
   float latMax = latitudes.get(1);
 
-  title = "Longitude";
+  title = "longitude";
   FloatList longitudes = findMaxMin(title);
   println(longitudes);
 
@@ -47,10 +47,10 @@ void setup() {
     noStroke();
     ellipse(latitude,longitude, 8, 8);
     
-    String type = row.getString("Type"); 
-    String placeName = row.getString("Place"); 
+    String type = row.getString("type"); 
+    String placeName = row.getString("place"); 
     
-    if (type.equals("Country")){
+    if (type.equals("country")){
       countryList.append(placeName);
       fill(255,60);
       textAlign(CENTER, CENTER);
@@ -58,7 +58,7 @@ void setup() {
       text(placeName, latitude, longitude-30);
     }
     
-    if (type.equals("City")){
+    if (type.equals("city")){
       cityList.append(placeName);
       fill(255,30);
       textAlign(CENTER, CENTER);

@@ -1,4 +1,4 @@
-dateArr,dateDep,Place,Type,Longitude,Latitude,Elevation
+dateArr,dateDep,place,type,longitude,latitude,elevation
 2016-04-03,2016-04-05,Italy,Country,41.871941,12.567385,182
 2016-04-03,2016-04-05,Rome,City,41.902774,12.496366,54
 2016-04-03,2016-04-05,Funny Palace Hostel,Home,41.902337,12.505897,57
