@@ -1,78 +1,12 @@
 Table adventure;
-String title;
 
 void setup() {
-  adventure = loadTable("adventure.csv", "header");
-
-  title = "Latitude";
-  FloatList latitudes = findMaxMin(title);
-  println(latitudes);
-
-  float latMin = latitudes.get(0);
-  float latMax = latitudes.get(1);
-
-  title = "Longitude";
-  FloatList longitudes = findMaxMin(title);
-  println(longitudes);
-
-  float longMin = longitudes.get(0);
-  float longMax = longitudes.get(1);
-
   size(1600, 900);
   background(44, 48, 255);
   fill(255, 100);
   
-  StringList countryList;
-  countryList = new StringList();
-  
-  StringList cityList;
-  cityList = new StringList();
-
-  for (TableRow row : adventure.rows()) {    
-    fill(255, 100);
-    // Note to self: To reference a String - 
-    // String goobley = row.getString("Type"); 
-    // if (goobley.equals("Attraction")){
-    // I know that I probably want to eventually map values lat = 70,0 and long = -15,110
-    
-    float latitude = row.getFloat("Latitude");    
-    latitude = map(latitude, latMin, latMax, 100, width-100); 
-
-    float longitude = row.getFloat("Longitude");
-    longitude = map(longitude, longMax, longMin, 100, height-100); 
-
-    noStroke();
-    ellipse(latitude,longitude, 8, 8);
-    
-    String type = row.getString("Type"); 
-    String placeName = row.getString("Place"); 
-    
-    if (type.equals("Country")){
-      countryList.append(placeName);
-      fill(255,60);
-      textAlign(CENTER, CENTER);
-      textSize(28);
-      text(placeName, latitude, longitude-30);
-    }
-    
-    if (type.equals("City")){
-      cityList.append(placeName);
-      fill(255,30);
-      textAlign(CENTER, CENTER);
-      textSize(14);
-      text(placeName, latitude, longitude);
-    }
-    
-    PImage img = loadImage("country-test.png","png");
-    imageMode(CENTER);
-    
-    if (placeName.equals("Germany")){
-      image(img,latitude, longitude,width/8,height/4);
-    }
-    
-    println(countryList);
-    println(cityList);
-  }
+  adventure = loadTable("adventure.csv", "header");
+  compileLongLat();
 }
 
 FloatList findMaxMin(String rowTitle) {
@@ -93,4 +27,34 @@ FloatList findMaxMin(String rowTitle) {
   minMax.append(maxNum);
 
   return minMax;
+}
+
+void compileLongLat(){
+  FloatList latitudes = findMaxMin("Latitude");
+  float latMin = latitudes.get(0);
+  float latMax = latitudes.get(1);
+
+  FloatList longitudes = findMaxMin("Longitude");
+  float longMin = longitudes.get(0);
+  float longMax = longitudes.get(1);
+
+  for (TableRow row : adventure.rows()) {   
+    fill(255);
+    // Note to self: To reference a String - 
+    // String goobley = row.getString("Type"); 
+    // if (goobley.equals("Attraction")){
+    float latitude = row.getFloat("Latitude");    
+    latitude = map(latitude, latMin, latMax, 100, width-100); 
+
+    float longitude = row.getFloat("Longitude");
+    longitude = map(longitude, longMax, longMin, 100, height-100); 
+
+    noStroke();
+    ellipse(latitude,longitude, 4, 4);
+    stroke(255);
+    line(0,latitude,width,latitude);
+    
+    String placeName = row.getString("Place");
+    println(placeName);
+  }
 }

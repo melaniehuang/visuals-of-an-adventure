@@ -100,7 +100,7 @@ dateArr,dateDep,Place,Type,Longitude,Latitude,Elevation
 2016-05-02,2016-05-02,Ancona,City,43.515809,16.249972,2
 2016-05-02,2016-05-05,Rome,City,41.902774,12.496366,54
 2016-05-02,2016-05-05,Luca's The Guesthouse,Home,41.902774,12.496366,54
-2016-05-02,2016-05-02,Vatican City and the Sistine Chapel,Attraction,41.902916,12.453389.0,40
+2016-05-02,2016-05-02,Vatican City and the Sistine Chapel,Attraction,41.902916,12.453389,40
 2016-05-02,2016-05-02,Regine Roma was closed,Moment,41.887889,12.473473,18
 2016-05-02,2016-05-02,La Villetta,Restaurant,41.889155,12.475037,18
 2016-05-02,2016-05-02,The first taste of spaghetti with clams,Moment,41.889155,12.475037,18
@@ -127,7 +127,7 @@ dateArr,dateDep,Place,Type,Longitude,Latitude,Elevation
 2016-05-08,2016-05-08,Acropolis,Attraction,37.9715323,23.7257492,151
 2016-05-08,2016-05-08,Walking tour with Stick Reeves,Moment,37.9715323,23.7257492,151
 2016-05-09,2016-05-09,Fisherman's Tavern,Restaurant,37.9729061,23.7285505,93
-2016-05-10,2016-05-10,Fastest Taxi in Athens,Moment,37.9429857,23.6469832,14
+2016-05-10,2016-05-10,Fastest taxi in Athens,Moment,37.9429857,23.6469832,14
 2016-05-10,2016-05-16,Milos,City,36.6914464,24.3935655,153
 2016-05-10,2016-05-16,Pollonia,City,36.7633018,24.5261446,3
 2016-05-10,2016-05-16,Delmar Apartments and Suites,Home,36.763164,24.525706,3
