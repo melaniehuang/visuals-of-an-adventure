@@ -51,10 +51,5 @@ void compileLongLat(){
 
     noStroke();
     ellipse(latitude,longitude, 4, 4);
-    stroke(255);
-    line(0,latitude,width,latitude);
-    
-    String placeName = row.getString("Place");
-    println(placeName);
   }
 }
