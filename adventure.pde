@@ -51,19 +51,19 @@ void setup() {
     String placeName = row.getString("Place"); 
     
     if (type.equals("Country")){
-       countryList.append(placeName);
-       fill(255,60);
-       textAlign(CENTER, CENTER);
-       textSize(28);
-       text(placeName, latitude, longitude-30);
+      countryList.append(placeName);
+      fill(255,60);
+      textAlign(CENTER, CENTER);
+      textSize(28);
+      text(placeName, latitude, longitude-30);
     }
     
     if (type.equals("City")){
-       cityList.append(placeName);
-       fill(255,30);
-       textAlign(CENTER, CENTER);
-       textSize(14);
-       text(placeName, latitude, longitude);
+      cityList.append(placeName);
+      fill(255,30);
+      textAlign(CENTER, CENTER);
+      textSize(14);
+      text(placeName, latitude, longitude);
     }
     
     println(countryList);
