@@ -12,6 +12,12 @@ float r = 5;
 float g = 27;
 float b = 72;
 
+enum Mix {
+  Tint,
+  Shade,
+  Tone
+}
+
 void setup() {
   //Set up canvas
   size(1600, 900);
@@ -67,7 +73,11 @@ void getCoords(String rowType){
 
 void paintLayer(){
   noStroke();
-  fill(r + (0.10 * (255 - r)), g + (0.10 * (255 - g)), b + (0.10 * (255 - b)), 10);
+  
+  r = calcMix(r, 0.10, Mix.Tint);
+  g = calcMix(g, 0.10, Mix.Tint);
+  b = calcMix(b, 0.10, Mix.Tint);
+  fill(r, g, b, 10);
   
   for (int i = 0; i < places.size(); i++){
     println(places.get(i));
@@ -79,21 +89,18 @@ void paintLayer(){
   }  
 }
 
-    // Note to self: To reference a String - 
-    // String goobley = row.getString("Type"); 
-    // if (goobley.equals("Attraction")){
-      
-    // x = latitude, y = longitude
-    
-    // TO DO: Create multiple PVectors dynamically for each country
-    
+float calcMix(float c, float amount, Mix mixType){
+  switch (mixType) {
+    case Tint:
+      return c + (amount * (255 - c));  
+    case Shade:
+      return c * amount;
+    case Tone:
+      return 0;
+  }
+}
 
-    //  fill(255);
-    //  noStroke();
-    //  ellipse(latitude,longitude,6,6);
-      
-    //  fill(255,10);
-    //  float lat2 = latitude + random(-1,1)*random(300,500);
-    //  float long2 = longitude + random(-1,1)*random(100,200);
-    //  rect(latitude,longitude,lat2,long2);
-    //}
+// Note to self: To reference a String - 
+// String goobley = row.getString("Type"); 
+// if (goobley.equals("Attraction")){
+// x = latitude, y = longitude
