@@ -30,6 +30,15 @@ void setup() {
   latMinMax = findMaxMin("Latitude");
   longMinMax = findMaxMin("Longitude");
 
+  getCoords("Country");
+  paintLayer();
+  
+  getCoords("City");
+  paintLayer();
+  
+  getCoords("Home");
+  paintLayer();
+  
   getCoords("Moment");
   paintLayer();
 } 
@@ -74,10 +83,10 @@ void getCoords(String rowType){
 void paintLayer(){
   noStroke();
   
-  r = calcMix(r, 0.10, Mix.Tint);
-  g = calcMix(g, 0.10, Mix.Tint);
-  b = calcMix(b, 0.10, Mix.Tint);
-  fill(r, g, b, 10);
+  r = calcMix(r, 0.05, Mix.Tint);
+  g = calcMix(g, 0.05, Mix.Tint);
+  b = calcMix(b, 0.05, Mix.Tint);
+  fill(r, g, b, 100);
   
   for (int i = 0; i < places.size(); i++){
     println(places.get(i));
@@ -86,7 +95,10 @@ void paintLayer(){
       float long2 = longitudes.get(i) + random(-1,1)*random(50,100);
       rect(latitudes.get(i),longitudes.get(i),lat2,long2);
     }
-  }  
+  }
+  places.clear();
+  latitudes.clear();
+  longitudes.clear();
 }
 
 float calcMix(float c, float amount, Mix mixType){
@@ -96,6 +108,8 @@ float calcMix(float c, float amount, Mix mixType){
     case Shade:
       return c * amount;
     case Tone:
+      return 0;
+    default:
       return 0;
   }
 }

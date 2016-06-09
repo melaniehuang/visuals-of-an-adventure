@@ -23,4 +23,19 @@ dateTravel,from,fromLong,fromLat,fromElevation,to,toLong,toLat,toElevation,trans
 2016-05-10,Athens,37.983917,23.7293599,70,Milos,36.6914464,24.3935655,153,Ferry,7:40
 2016-05-16,Milos,36.6914464,24.3935655,153,Santorini,36.3931562,25.4615092,95,Ferry,6:30
 2016-05-19,Santorini,36.3931562,25.4615092,95,Milan,45.4654219,9.1859243,122,Plane,2:00
-2016-05-19,Milan,45.4654219,9.1859243,122,Vienna,40.0,12.0,1,Train,11:00
+2016-05-19,Milan,45.4654219,9.1859243,122,Verona,40.0,12.0,1,Train,2:00
+2016-05-20,Verona,40.0,12.0,1,Innsbruck,40.0,12.0,1,Train,4:00
+2016-05-20,Innsbruck,40.0,12.0,1,Salzburg,40.0,12.0,1,Train,4:00
+2016-05-21,Salzburg,40.0,12.0,1,Fuschl-am-see,40.0,12.0,1,Car,4:00
+2016-05-25,Fuschl-am-see,40.0,12.0,1,An au der donau,40.0,12.0,1,Car,4:00
+2016-05-27,An au der donau,40.0,12.0,1,Passau,40.0,12.0,1,Car,4:00
+2016-05-28,Passau,40.0,12.0,1,Munich,40.0,12.0,1,Car,4:00
+2016-05-28,Munich,40.0,12.0,1,Fussen,40.0,12.0,1,Train,4:00
+2016-05-30,Fussen,40.0,12.0,1,Hamburg,40.0,12.0,1,Train,4:00
+2016-06-04,Hamburg,40.0,12.0,1,Lutenborg,40.0,12.0,1,Car,4:00
+2016-06-05,Lutenborg,40.0,12.0,1,Hamburg,40.0,12.0,1,Car,4:00
+2016-06-06,Hamburg,40.0,12.0,1,Aarhus,40.0,12.0,1,Train,4:00
+2016-06-08,Aarhus,40.0,12.0,1,Copenhagen,40.0,12.0,1,Train,4:00
+2016-06-10,Copenhagen,40.0,12.0,1,Bergen,40.0,12.0,1,Plane,4:00
+2016-06-17,Bergen,40.0,12.0,1,Reykavik,40.0,12.0,1,Plane,4:00
+2016-06-24,Reykavik,40.0,12.0,1,London,40.0,12.0,1,Plane,4:00

@@ -169,8 +169,49 @@ dateArr,dateDep,Place,Type,Longitude,Latitude,Elevation
 2016-05-18,2016-05-18,Marinated octopus and nemo spaghetti,Moment,0.0,0.0,0
 2016-05-19,2016-05-19,Italy,Country,41.871941,12.567385,182
 2016-05-19,2016-05-19,Milan,City,45.4654219,9.1859243,122
-2016-05-19,2016-05-20,Austria,Country,0.0,0.0,0
-2016-05-19,2016-05-20,Vienna,City,0.0,0.0,0
-2016-06-02,2016-06-04,Germany,Country,51.165692,10.451526,423
-2016-06-02,2016-06-04,Hamburg,City,53.551085,9.993682,56
-2016-06-19,2016-06-19,Iceland,Country,64.963051,-19.020835,547
+2016-05-19,2016-05-20,Verona,City,0.0,0.0,0
+2016-05-19,2016-05-20,Hotel Martini,Home,0.0,0.0,0
+2016-05-19,2016-05-19,Restaurant shuttled to trattoria,Restaurant,0.0,0.0,0
+2016-05-20,2016-05-20,Mini colloseum,Attraction,0.0,0.0,0
+2016-05-20,2016-05-20,Juliets Balcony,Attraction,0.0,0.0,0
+2016-05-20,2016-05-28,Austria,Country,0.0,0.0,0
+2016-05-20,2016-05-20,Innsbruck,City,0.0,0.0,0
+2016-05-20,2016-05-20,Car scam,Moment,0.0,0.0,0
+2016-05-20,2016-05-20,The very delayed train by hours,Moment,0.0,0.0,0
+2016-05-20,2016-05-20,Austrian beer garden traditional near the train station,Restaurant,0.0,0.0,0
+2016-05-20,2016-05-21,Salzburg,City,0.0,0.0,0
+2016-05-20,2016-05-21,Austria Trend Hotel Europa,Home,0.0,0.0,0
+2016-05-21,2016-05-21,Magical simple breakfast,Restaurant,0.0,0.0,0
+2016-05-21,2016-05-27,Fuschlamsee,City,0.0,0.0,0
+2016-05-21,2016-05-27,Bambichlhof,Home,0.0,0.0,0
+2016-05-21,2016-05-21,Bambichlhof's daily milk,Moment,0.0,0.0,0
+2016-05-21,2016-05-21,"The fat cat, hogs, goats, rabbits and cows",Moment,0.0,0.0,0
+2016-05-22,2016-05-22,Fuschlsee,Attraction,0.0,0.0,0
+2016-05-22,2016-05-22,Getting a fishing license on a Sunday,Moment,0.0,0.0,0
+2016-05-22,2016-05-22,Fishing in the Fuschlsee,Moment,0.0,0.0,0
+2016-05-22,2016-05-22,Fuschlamsee Swimming Pool,Attraction,0.0,0.0,0
+2016-05-22,2016-05-22,Seven fifty on card thanks,Moment,0.0,0.0,0
+2016-05-24,2016-05-24,Bunts map and birthday,Moment,0.0,0.0,0
+2016-05-24,2016-05-24,Hallstat,City,0.0,0.0,0
+2016-05-24,2016-05-24,Hallstat Salt Mine,Attraction,0.0,0.0,0
+2016-05-24,2016-05-24,Oldest staircase reveal,Moment,0.0,0.0,0
+2016-05-24,2016-05-24,Miners slide ride,Moment,0.0,0.0,0
+2016-05-24,2016-05-24,Bone cave,Attraction,0.0,0.0,0
+2016-05-24,2016-05-24,Hallstat Salt Mine,Attraction,0.0,0.0,0
+2016-05-24,2016-05-24,Feeding the tricky swan,Moment,0.0,0.0,0
+2016-05-24,2016-05-24,Beautiful lake with misty reflection,Attraction,0.0,0.0,0
+2016-05-27,2016-05-28,Au an der donau,City,0.0,0.0,0
+2016-05-28,2016-05-XX,Germany,Country,51.165692,10.451526,423
+2016-05-27,2016-05-28,Passau,City,0.0,0.0,0
+2016-05-28,2016-05-30,Fussen,City,0.0,0.0,0
+2016-05-30,2016-06-04,Hamburg,City,53.551085,9.993682,56
+2016-06-04,2016-06-05,Holmstorf,City,0.0,0.0,0
+2016-06-05,2016-06-06,Hamburg,City,53.551085,9.993682,56
+2016-06-06,2016-06-10,Denmark,Country,0.0,0.0,0
+2016-06-06,2016-06-08,Aarhus,City,53.551085,9.993682,56
+2016-06-08,2016-06-10,Copenhagen,City,53.551085,9.993682,56
+2016-06-10,2016-06-XX,Norway,Country,0.0,0.0,0
+2016-06-10,2016-06-10,Bergen,City,0.0,0.0,0
+2016-06-10,2016-06-16,Cabin in the woods area,City,0.0,0.0,0
+2016-06-17,2016-06-24,Iceland,Country,64.963051,-19.020835,547
+2016-06-24,2016-06-31,Reykavic,City,0.0,0.0,0
