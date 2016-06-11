@@ -1,4 +1,4 @@
-dateArr,dateDep,Place,Type,Longitude,Latitude,Elevation,Country
+dateArr,dateDep,Place,Type,Latitude,Longitude,Elevation,Country
 2016-03-29,2016-03-30,Bangkok,City,13.756321,100.501765,9,Thailand
 2016-03-29,2016-03-30,Viman Guesthouse,Home,13.763447,100.497878,9,Thailand
 2016-03-30,2016-04-03,Hua Hin,City,12.568359,99.957689,12,Thailand
@@ -152,119 +152,126 @@ dateArr,dateDep,Place,Type,Longitude,Latitude,Elevation,Country
 2016-05-14,2016-05-14,Kivotos ton Gefseon,Restaurant,36.762113,24.525185,2,Greece
 2016-05-14,2016-05-14,Squid Ink Pasta with Anchovies and Galatobouriko,36.762113,24.525185,2,Greece
 2016-05-14,2016-05-14,Watching Eurovision with Bum,Moment,36.763164,24.525706,3,Greece
-2016-05-12,2016-05-14,Pollonia gyros shop,Restaurant,0.0,0.0,0,Greece
-2016-05-12,2016-05-14,The local Pollonia gyros guys,Moment,0.0,0.0,0,Greece
-2016-05-16,2016-05-16,Excellent Yachting sail trip around Milos,Attraction,0.0,0.0,0,Greece
-2016-05-16,2016-05-16,Snokeling through Kfetiko caves,Moment,0.0,0.0,0,Greece
-2016-05-16,2016-05-16,Fishies under the boat,Moment,0.0,0.0,0,Greece
-2016-05-17,2016-05-19,Santorini,City,36.3931562,25.4615092,95,Greece
-2016-05-17,2016-05-19,Fira,City,0.0,0.0,0,Greece
-2016-05-17,2016-05-19,Thea Studios,Home,36.41456552,25.43932557,160,Greece
-2016-05-17,2016-05-17,Theo's Kitchen,Restaurant,0.0,0.0,0,Greece
-2016-05-17,2016-05-17,Theo's fresh squid,Moment,0.0,0.0,0,Greece
-2016-05-17,2016-05-17,Oia,City,0.0,0.0,0,Greece
-2016-05-17,2016-05-17,Melitini,Restaurant,0.0,0.0,0,Greece
-2016-05-17,2016-05-17,Andy runs into a giant pot plant and ends up ass up,Moment,0.0,0.0,0,Greece
-2016-05-18,2016-05-18,Perissa black beach,Attraction,0.0,0.0,0,Greece
-2016-05-18,2016-05-18,Lady demanding air con off and copping vape and BO,Moment,0.0,0.0,0,Greece
-2016-05-18,2016-05-18,Santi Tavern,Restaurant,0.0,0.0,0,Greece
-2016-05-18,2016-05-18,Marinated octopus and nemo spaghetti,Moment,0.0,0.0,0,Greece
+2016-05-12,2016-05-14,Alki's Gyros,Restaurant,36.76392103,24.52726185,1,Greece
+2016-05-12,2016-05-14,Our local Pollonia gyros guys that filled our stomaches,Moment,36.76392103,24.52726185,1,Greece
+2016-05-16,2016-05-16,Excellent Yachting sail trip around Milos,Attraction,36.6498833,24.3317167,12,Greece
+2016-05-16,2016-05-16,Snokeling through Kleftiko caves,Moment,36.6498833,24.3317167,12,Greece
+2016-05-16,2016-05-16,Fishies under the boat,Moment,36.6498833,24.3317167,12,Greece
+2016-05-17,2016-05-19,Santorini,City,36.4166485,25.432447,214,Greece
+2016-05-17,2016-05-19,Fira,City,36.42,25.431667,226,Greece
+2016-05-17,2016-05-19,Thea Studios,Home,36.8083398,21.8144273,13,Greece
+2016-05-17,2016-05-17,Theoni's Kitchen,Restaurant,36.4155382,25.4331364,206,Greece
+2016-05-17,2016-05-17,Theo's fresh squid,Moment,36.4155382,25.4331364,206,Greece
+2016-05-17,2016-05-17,Oia,City,36.4618199,25.3753101,122,Greece
+2016-05-17,2016-05-17,Melitini,Restaurant,36.462535,25.381002,123,Greece
+2016-05-17,2016-05-17,Andy runs into a giant pot plant and ends up ass up,Moment,36.41491087,25.43465853,194,Greece
+2016-05-18,2016-05-18,Perissa black beach,Attraction,36.3537181,25.4736752,1,Greece
+2016-05-18,2016-05-18,Lady demanding air con off and copping vape and BO,Moment,36.35427714,25.4738684,2,Greece
+2016-05-18,2016-05-18,Stani Tavern,Restaurant,36.4183215,25.4314959,210,Greece
+2016-05-18,2016-05-18,Marinated octopus and nemo spaghetti,Moment,36.4183215,25.4314959,210,Greece
 2016-05-19,2016-05-19,Milan,City,45.4654219,9.1859243,122,Italy
-2016-05-19,2016-05-19,Man with his ass out at the station,Moment,45.4654219,9.1859243,122,Italy
-2016-05-19,2016-05-20,Verona,City,0.0,0.0,0,Italy
-2016-05-19,2016-05-20,Hotel Martini,Home,0.0,0.0,0,Italy
-2016-05-19,2016-05-19,Trattoria Pizzeria Ai Bastioni,Restaurant,0.0,0.0,0,Italy
-2016-05-20,2016-05-20,Arena di Verona,Attraction,0.0,0.0,0,Italy
-2016-05-20,2016-05-20,Juliets Balcony,Attraction,0.0,0.0,0,Italy
-2016-05-20,2016-05-20,Innsbruck,City,0.0,0.0,0,Austria
-2016-05-20,2016-05-20,Car scam,Moment,0.0,0.0,0,Austria
-2016-05-20,2016-05-20,The very delayed train by hours,Moment,0.0,0.0,0,Austria
-2016-05-20,2016-05-20,Tiroler Bauernkeller,Restaurant,0.0,0.0,0,Austria
-2016-05-20,2016-05-21,Salzburg,City,0.0,0.0,0,Austria
-2016-05-20,2016-05-21,Austria Trend Hotel Europa,Home,0.0,0.0,0,Austria
-2016-05-21,2016-05-21,Fingerlos,Restaurant,0.0,0.0,0,Austria
-2016-05-21,2016-05-27,Fuschlamsee,City,0.0,0.0,0,Austria
-2016-05-21,2016-05-27,Bambichlhof,Home,0.0,0.0,0,Austria
-2016-05-21,2016-05-21,Little Austrian girl teaching us how to feed the goats,Moment,0.0,0.0,0,Austria
-2016-05-21,2016-05-21,Bambichlhof's daily milk delivery to our door,Moment,0.0,0.0,0,Austria
-2016-05-21,2016-05-21,"The fat cat, hogs, goats, rabbits and cows",Moment,0.0,0.0,0,Austria
-2016-05-22,2016-05-22,Fuschlsee,Attraction,0.0,0.0,0,Austria
-2016-05-22,2016-05-22,Getting a fishing license on a Sunday,Moment,0.0,0.0,0,Austria
-2016-05-22,2016-05-22,Fishing in the Fuschlsee in our paddle boat,Moment,0.0,0.0,0,Austria
-2016-05-22,2016-05-22,Fuschlamsee Swimming Pool,Attraction,0.0,0.0,0,Austria
-2016-05-22,2016-05-22,The slide into the freezing water,Attraction,0.0,0.0,0,Austria
-2016-05-22,2016-05-22,No cocktails lady,Moment,0.0,0.0,0,Austria
-2016-05-22,2016-05-22,Seven fifty on card thanks,Moment,0.0,0.0,0,Austria
-2016-05-24,2016-05-24,Bunts' map and birthday,Moment,0.0,0.0,0,Austria
-2016-05-24,2016-05-24,Hallstat,City,0.0,0.0,0,Austria
-2016-05-24,2016-05-24,Hallstat Salt Mine,Attraction,0.0,0.0,0,Austria
-2016-05-24,2016-05-24,Oldest staircase reveal,Moment,0.0,0.0,0,Austria
-2016-05-24,2016-05-24,Miners slide ride,Moment,0.0,0.0,0,Austria
-2016-05-24,2016-05-24,Bone cave,Attraction,0.0,0.0,0,Austria
-2016-05-24,2016-05-24,Feeding the tricky swan,Moment,0.0,0.0,0,Austria
-2016-05-24,2016-05-24,Gosauseen,Attraction,0.0,0.0,0,Austria
-2016-05-27,2016-05-28,Au an der donau,City,0.0,0.0,0,Austria
-2016-05-27,2016-05-28,Campingplatz Au Donau,Home,0.0,0.0,0,Austria
-2016-05-27,2016-05-27,Fishing for fish we could see,Moment,0.0,0.0,0,Austria
-2016-05-28,2016-05-28,Bogenscultzenclub Windhaag bei Perg,Attraction,0.0,0.0,0,Austria
-2016-05-28,2016-05-28,A cold beer after 10 rounds of archery,Moment,0.0,0.0,0,Austria
-2016-05-28,2016-05-28,Our Steve Irwin tribute film shoot of archery,Moment,0.0,0.0,0,Austria
-2016-05-28,2016-05-28,Bunts' 30th video,Moment,0.0,0.0,0,Austria
-2016-05-27,2016-05-28,Passau,City,0.0,0.0,0,Austria
-2016-05-27,2016-05-27,Cosy Family Room/Apartment,Home,0.0,0.0,0
-2016-05-27,2016-05-27,"Living in the dark with a husband, wife and 1 yr old",Moment,0.0,0.0,0
-2016-05-27,2016-05-27,Meeting Matthias,Moment,0.0,0.0,0
-2016-05-27,2016-05-27,Das Oberhaus,Restaurant,0.0,0.0,0
-2016-05-27,2016-05-27,The pork roast,Moment,0.0,0.0,0
-2016-05-28,2016-05-30,Fussen,City,0.0,0.0,0
-2016-05-28,2016-05-29,Hotel Sonne,Home,0.0,0.0,0
-2016-05-28,2016-05-28,Gasthof Krone,Restaurant,0.0,0.0,0
-2016-05-28,2016-05-28,Eating pork knuckle and crispy duck with our hands,Moment,0.0,0.0,0
-2016-05-28,2016-05-28,Shots straight from the barrel,Moment,0.0,0.0,0
-2016-05-29,2016-05-30,Old Kings Fuessen Design Hostel,Home,0.0,0.0,0
-2016-05-29,2016-05-29,The older asian couple that didn't understand what hostels were,Moment,0.0,0.0,0
-2016-05-29,2016-05-29,Neuschwanstein Castle,Attraction,0.0,0.0,0
-2016-05-29,2016-05-29,La Perla Ristorante Pizzeria,Restaurant,0.0,0.0,0
-2016-05-29,2016-05-29,Spicy Noodle and the strangest pizza crust,Moment,0.0,0.0,0
-2016-05-29,2016-05-29,The "double espresso" waiter,Moment,0.0,0.0,0
-2016-05-30,2016-06-04,Hamburg,City,53.551085,9.993682,56
-2016-05-30,2016-06-04,2-Zimmer in Winterhude direkt am Stadtpark,Home,0.0,0.0,0
-2016-05-30,2016-05-30,Quan Do,Restaurant,0.0,0.0,0
-2016-05-30,2016-05-30,Cafe May,Restaurant,0.0,0.0,0
-2016-05-30,2016-05-30,Getting accidentally wasted with Anki and Olli,Moment,0.0,0.0,0
-2016-06-01,2016-06-01,Hungover making sunshine stars in a jar for Anki,Moment,0.0,0.0,0
-2016-06-02,2016-06-02,Andy trying to hire a suit,Moment,0.0,0.0,0
-2016-06-04,2016-06-04,Hair and makeup with Hanna,Moment,0.0,0.0,0
-2016-06-04,2016-06-05,Luettjeburg,City,0.0,0.0,0
-2016-06-04,2016-06-05,Hotel Luttje Burg,Home,0.0,0.0,0
-2016-06-04,2016-06-04,Anki and Olli get married,Moment,0.0,0.0,0
-2016-06-04,2016-06-04,Ripping up the dancefloor,Moment,0.0,0.0,0
-2016-06-04,2016-06-04,Anki's outburst of "moving to Australia",Moment,0.0,0.0,0
-2016-06-04,2016-06-04,The lovely Anna and David from Stockholm,Moment,0.0,0.0,0
-2016-06-04,2016-06-04,Big titties and potato salad conga line,Moment,0.0,0.0,0
-2016-06-04,2016-06-04,Olli getting lifted up in the air,Moment,0.0,0.0,0
-2016-06-04,2016-06-04,Andy in the photobooth with Olli's mates explaining deadly spiders and snakes,Moment,0.0,0.0,0
-2016-06-05,2016-06-06,Hamburg,City,53.551085,9.993682,56
-2016-06-05,2016-06-06,Hostel B8,Home,0.0,0.0,0
-2016-06-05,2016-06-05,Sitting outside listening to the amazing electric guitar busker,Moment,0.0,0.0,0
-2016-06-05,2016-06-05,Brucke 10,Restaurant,0.0,0.0,0
-2016-06-05,2016-06-05,Down Under,Restaurant,0.0,0.0,0
-2016-06-06,2016-06-06,Goot,Restaurant,0.0,0.0,0
-2016-06-06,2016-06-08,Aarhus,City,53.551085,9.993682,56
-2016-06-07,2016-06-08,Cozy like flat in a homelike atmosphere,Home,0.0,0.0,0
-2016-06-07,2016-06-07,Bill's coffee,Restaurant,0.0,0.0,0
-2016-06-07,2016-06-07,aRos,Attraction,0.0,0.0,0
-2016-06-07,2016-06-07,Olafur Eliasson's Rainbow Panorama,Attraction,0.0,0.0,0
-2016-06-07,2016-06-07,Deer park,Attraction,0.0,0.0,0
-2016-06-07,2016-06-07,Roadhouse American Restaurant,Restaurant,0.0,0.0,0
-2016-06-08,2016-06-10,Copenhagen,City,53.551085,9.993682,56
-2016-06-08,2016-06-10,Generator Hostel,Home,0.0,0.0,0
-2016-06-08,2016-06-08,National Museum of Denmark,Attraction,0.0,0.0,0
-2016-06-08,2016-06-08,Cosplay exhibition and photo booth,Moment,0.0,0.0,0
-2016-06-09,2016-06-09,That guy that went to a League of Legends Stadium match,Moment,0.0,0.0,0
-2016-06-10,2016-06-17,Bergen,City,0.0,0.0,0
-2016-06-10,2016-06-17,Kaffemisjonen,Restaurant,0.0,0.0,0
-2016-06-10,2016-06-16,Holiday in Hardanger,Home,0.0,0.0,0
-2016-06-16,2016-06-17,Bergen Hotel that we book,Home,0.0,0.0,0
-2016-06-17,2016-06-24,Reykavic,City,0.0,0.0,0
-2016-06-17,2016-06-24,Campervan,Home,0.0,0.0,0
+2016-05-19,2016-05-19,Man with his ass out at the station,Moment,45.48469302,9.20279242,123,Italy
+2016-05-19,2016-05-20,Verona,City,45.4383842,10.9916215,61,Italy
+2016-05-19,2016-05-20,Hotel Martini,Home,45.4326976,10.9786265,62,Italy
+2016-05-19,2016-05-19,Trattoria Pizzeria Ai Bastioni,Restaurant,45.4396178,10.9746056,64,Italy
+2016-05-20,2016-05-20,Arena di Verona,Attraction,45.4389958,10.9943574,61,Italy
+2016-05-20,2016-05-20,Casa di Giulietta,Attraction,45.442031,10.9988201,59,Italy
+2016-05-20,2016-05-20,Innsbruck,City,47.2692124,11.4041024,577,Austria
+2016-05-20,2016-05-20,Car scam,Moment,47.2634797,11.4005366,577,Austria
+2016-05-20,2016-05-20,The very delayed train by hours,Moment,47.2634797,11.4005366,577,Austria
+2016-05-20,2016-05-20,Tiroler Bauernkeller,Restaurant,47.2650926,11.3989453,574,Austria
+2016-05-20,2016-05-21,Salzburg,City,47.80949,13.05501,431,Austria
+2016-05-20,2016-05-21,Austria Trend Hotel Europa,Home,47.8121982,13.0437001,424,Austria
+2016-05-21,2016-05-21,Fingerlos,Restaurant,47.8074155,13.0435986,430,Austria
+2016-05-21,2016-05-27,Fuschl am see,City,47.7965657,13.303364,670,Austria
+2016-05-21,2016-05-27,Bauernhof Bambichlhof,Home,47.7922016,13.3107565,726,Austria
+2016-05-21,2016-05-21,Little Austrian girl teaching us how to feed the goats,Moment,47.7922016,13.3107565,726,Austria
+2016-05-21,2016-05-21,A daily milk delivery to our door,Moment,47.7922016,13.3107565,726,Austria
+2016-05-21,2016-05-21,"The fat cat, hogs, goats, rabbits and cows",Moment,47.7922016,13.3107565,726,Austria
+2016-05-22,2016-05-22,Fuschlsee,Attraction,47.8030328,13.2758571,664,Austria
+2016-05-22,2016-05-22,Getting a fishing license on a Sunday,Moment,47.7955966,13.3044142,672,Austria
+2016-05-22,2016-05-22,Fishing in the Fuschlsee in our paddle boat,Moment,47.7963655,13.2985819,684,Austria
+2016-05-22,2016-05-22,Fuschlamsee Swimming Pool,Attraction,47.7935541,13.299164,666,Austria
+2016-05-22,2016-05-22,The slide into the freezing water,Attraction,47.7935541,13.299164,666,Austria
+2016-05-22,2016-05-22,No cocktails lady,Moment,47.7935541,13.299164,666,Austria
+2016-05-22,2016-05-22,Seven fifty on card thanks,Moment,47.7935541,13.299164,666,Austria
+2016-05-24,2016-05-24,Bunts' map and birthday,Moment,47.7922016,13.3107565,726,Austria
+2016-05-24,2016-05-24,Hallstat,City,47.5622342,13.6492617,523,Austria
+2016-05-24,2016-05-24,Hallstat Salt Mine,Attraction,47.5555051,13.6454824,515,Austria
+2016-05-24,2016-05-24,Oldest staircase reveal,Moment,47.5555051,13.6454824,515,Austria
+2016-05-24,2016-05-24,Miners slide ride,Moment,47.5555051,13.6454824,515,Austria
+2016-05-24,2016-05-24,Bone House,Attraction,47.5636184,13.6487446,555,Austria
+2016-05-24,2016-05-24,Feeding the tricky swan,Moment,47.5620811,13.6488163,534,Austria
+2016-05-24,2016-05-24,Gosauseen,Attraction,47.53294,13.49695,922,Austria
+2016-05-27,2016-05-28,Au an der donau,City,48.2297212,14.5824746,242,Austria
+2016-05-27,2016-05-28,Campingplatz Au Donau,Home,48.2277312,14.5792556,244,Austria
+2016-05-27,2016-05-27,That time I planned a whole birthday surprise and Austria had a public holiday,Moment,48.2297212,14.5824746,242,Austria
+2016-05-27,2016-05-27,Showing Andy the videos sent in,Moment,48.2297212,14.5824746,242,Austria
+2016-05-27,2016-05-27,Linz,City,48.30694,14.28583,261,Austria
+2016-05-27,2016-05-27,Ars Electronica Center,Attraction,48.3097431,14.2843268,262,Austria
+2016-05-27,2016-05-27,Randomly finding the Street Food Market and the coffee guys,Moment,48.30694,14.28583,261,Austria
+2016-05-27,2016-05-27,Fishing for fish we could see,Moment,48.2281135,14.5781778,241,Austria
+2016-05-28,2016-05-28,When I drove the exact wrong direction to the surprise archery,Moment,48.2730794,14.6836782,374,Austria
+2016-05-28,2016-05-28,Bogenscultzenclub Windhaag bei Perg,Attraction,48.2730794,14.6836782,374,Austria
+2016-05-28,2016-05-28,A cold beer after 10 rounds of archery,Moment,48.2730794,14.6836782,374,Austria
+2016-05-28,2016-05-28,Our Steve Irwin tribute film shoot of archery,48.2730794,14.6836782,374,Austria
+2016-05-27,2016-05-28,Passau,City,48.5667364,13.4319466,365,Germany
+2016-05-27,2016-05-27,Cosy Family Room/Apartment,Home,48.5591,13.43267,333,Germany
+2016-05-27,2016-05-27,"Living in the dark with a husband, wife and 1 yr old",Moment,48.5591,13.43267,333,Germany
+2016-05-27,2016-05-27,Das Oberhaus,Restaurant,48.5778753,13.4687463,377,Germany
+2016-05-27,2016-05-27,The pork roast,Moment,48.5778753,13.4687463,377,Germany
+2016-05-28,2016-05-30,Fussen,City,47.569648,10.7004328,799,Germany
+2016-05-28,2016-05-29,Hotel Sonne,Home,47.5695492,10.699955,799,Germany
+2016-05-28,2016-05-28,Gasthof Krone,Restaurant,47.5685619,10.7012497,800,Germany
+2016-05-28,2016-05-28,Eating pork knuckle and crispy duck with our hands,Moment,47.5685619,10.7012497,800,Germany
+2016-05-28,2016-05-28,Shots straight from the barrel,Moment,47.5685619,10.7012497,800,Germany
+2016-05-29,2016-05-30,Old Kings Fuessen Design Hostel,Home,47.5674292,10.7007159,799,Germany
+2016-05-29,2016-05-29,The older asian couple that didn't understand what hostels were,Moment,47.5674292,10.7007159,799,Germany
+2016-05-29,2016-05-29,La Perla Ristorante Pizzeria,Restaurant,47.5688452,10.7014232,800,Germany
+2016-05-29,2016-05-29,Spicy Noodle and the strangest pizza crust,Moment,47.5688452,10.7014232,800,Germany
+2016-05-29,2016-05-29,The "double espresso" waiter,Moment,47.5688452,10.7014232,800,Germany
+2016-05-30,2016-06-04,Hamburg,City,53.5510846,9.9936818,6,Germany
+2016-05-30,2016-06-04,2-Zimmer in Winterhude direkt am Stadtpark,Home,49.4286086,11.0670803,316,Germany
+2016-05-30,2016-05-30,Quan Do,Restaurant,53.5533211,10.0025256,10,Germany
+2016-05-30,2016-05-30,Cafe May,Restaurant,53.59914,9.9971,13,Germany
+2016-05-30,2016-05-30,Getting accidentally wasted with Anki and Olli,Moment,53.59914,9.9971,13,Germany
+2016-06-01,2016-06-01,Hungover making sunshine stars in a jar for Anki,Moment,49.4286086,11.0670803,316,Germany
+2016-06-02,2016-06-02,Andy trying to hire a suit,Moment,53.5843055,9.9811167,7,Germany
+2016-06-04,2016-06-04,Hair and makeup with Hanna,Moment,53.5850297,9.9806739,8,Germany
+2016-06-04,2016-06-05,Luettjeburg,City,54.2941415,10.5864414,45,Germany
+2016-06-04,2016-06-05,Hotel Luttje Burg,Home,54.292446,10.5895879,42,Germany
+2016-06-04,2016-06-04,Anki and Olli get married,Moment,54.2874029,10.5955895,14,Germany
+2016-06-04,2016-06-04,Ripping up the dancefloor,Moment,54.2874029,10.5955895,14,Germany
+2016-06-04,2016-06-04,Anki's outburst of "moving to Australia",Moment,54.2874029,10.5955895,14,Germany
+2016-06-04,2016-06-04,The lovely Anna and David from Stockholm,Moment,54.2874029,10.5955895,14,Germany
+2016-06-04,2016-06-04,Big titties and potato salad conga line,Moment,54.2874029,10.5955895,14,Germany
+2016-06-04,2016-06-04,Olli getting lifted up in the air on the dancefloor,Moment,54.2874029,10.5955895,14,Germany
+2016-06-04,2016-06-04,Andy in the photobooth with Olli's mates explaining deadly spiders and snakes,Moment,54.2874029,10.5955895,14,Germany
+2016-06-05,2016-06-06,Hamburg,City,53.5510846,9.9936818,6,Germany
+2016-06-05,2016-06-06,Hostel B8,Home,53.5643031,9.9830783,15,Germany
+2016-06-05,2016-06-05,Sitting outside listening to the amazing electric guitar busker,Moment,53.5528457,10.0066839,14,Germany
+2016-06-05,2016-06-05,Brucke 10,Restaurant,53.5455077,9.9634293,3,Germany
+2016-06-05,2016-06-05,Down Under,Restaurant,53.5642653,9.9839144,14,Germany
+2016-06-06,2016-06-06,Goot,Restaurant,53.5485072,10.0006623,7,Germany
+2016-06-06,2016-06-08,Aarhus,City,56.162939,10.203921,27,Denmark
+2016-06-07,2016-06-08,Cozy like flat in a homelike atmosphere,Home,56.162854,10.160503,54,Denmark
+2016-06-07,2016-06-07,Bill's coffee,Restaurant,56.1575683,10.2009788,7,Denmark
+2016-06-07,2016-06-07,aRos,Attraction,56.153919,10.199716,13,Denmark
+2016-06-07,2016-06-07,Olafur Eliasson's Rainbow Panorama,Attraction,56.153919,10.199716,13,Denmark
+2016-06-07,2016-06-07,Deer park,Attraction,56.12041,10.219898,44,Denmark
+2016-06-07,2016-06-07,Memphis Roadhouse,Restaurant,56.155791,10.20384,11,Denmark
+2016-06-08,2016-06-10,Copenhagen,City,55.6760968,12.5683371,6,Denmark
+2016-06-08,2016-06-10,Generator Hostel,Home,55.6826667,12.5823213,5,Denmark
+2016-06-08,2016-06-08,National Museum of Denmark,Attraction,55.6746479,12.574741,2,Denmark
+2016-06-08,2016-06-08,Cosplay exhibition and photo booth,Moment,55.6746479,12.574741,2,Denmark
+2016-06-09,2016-06-09,That guy that went to a League of Legends Stadium match,Moment,55.6826667,12.5823213,5,Denmark
+2016-06-10,2016-06-17,Bergen,City,60.3912628,5.3220544,5,Norway
+2016-06-10,2016-06-17,Kaffemisjonen,Restaurant,60.3950344,5.3292422,6,Norway
+2016-06-10,2016-06-16,Holiday in Hardanger,Home,60.3670746,6.181409,43,Norway
+2016-06-11,2016-06-11,The cabin and sunset at 11,Moment,60.3670746,6.181409,43,Norway
+2016-06-10,2016-06-10,The crazy overpriced seafood in Bergen,Moment,60.3912628,5.3220544,5,Norway
+2016-06-10,2016-06-10,Shite fischeeeeen,Moment,60.3975672,5.3245494,4,Norway
+2016-06-11,2016-06-11,Rnb dance morning,Moment,60.3670746,6.181409,43,Norway
+2016-06-11,2016-06-11,Riding our bikes to town,Moment,60.370887,6.1456351,3,Norway
+2016-06-11,2016-06-11,Hardenger Boat Festival,Attraction,60.370887,6.1456351,3,Norway
+2016-06-11,2016-06-11,The very first fishing and the tough row,Moment,60.3670746,6.181409,43,Norway
