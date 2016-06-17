@@ -150,7 +150,7 @@ dateArr,dateDep,Place,Type,Latitude,Longitude,Elevation,Country
 2016-05-13,2016-05-13,The local cheeses,Moment,36.7623546,24.526123,2,Greece
 2016-05-13,2016-05-13,Smuggling bread to feed kitties,Moment,36.7623546,24.526123,2,Greece
 2016-05-14,2016-05-14,Kivotos ton Gefseon,Restaurant,36.762113,24.525185,2,Greece
-2016-05-14,2016-05-14,Squid Ink Pasta with Anchovies and Galatobouriko,36.762113,24.525185,2,Greece
+2016-05-14,2016-05-14,Squid Ink Pasta with Anchovies and Galatobouriko,Moment,36.762113,24.525185,2,Greece
 2016-05-14,2016-05-14,Watching Eurovision with Bum,Moment,36.763164,24.525706,3,Greece
 2016-05-12,2016-05-14,Alki's Gyros,Restaurant,36.76392103,24.52726185,1,Greece
 2016-05-12,2016-05-14,Our local Pollonia gyros guys that filled our stomaches,Moment,36.76392103,24.52726185,1,Greece
@@ -214,7 +214,7 @@ dateArr,dateDep,Place,Type,Latitude,Longitude,Elevation,Country
 2016-05-28,2016-05-28,When I drove the exact wrong direction to the surprise archery,Moment,48.2730794,14.6836782,374,Austria
 2016-05-28,2016-05-28,Bogenscultzenclub Windhaag bei Perg,Attraction,48.2730794,14.6836782,374,Austria
 2016-05-28,2016-05-28,A cold beer after 10 rounds of archery,Moment,48.2730794,14.6836782,374,Austria
-2016-05-28,2016-05-28,Our Steve Irwin tribute film shoot of archery,48.2730794,14.6836782,374,Austria
+2016-05-28,2016-05-28,Our Steve Irwin tribute film shoot of archery,Moment,48.2730794,14.6836782,374,Austria
 2016-05-27,2016-05-28,Passau,City,48.5667364,13.4319466,365,Germany
 2016-05-27,2016-05-27,Cosy Family Room/Apartment,Home,48.5591,13.43267,333,Germany
 2016-05-27,2016-05-27,"Living in the dark with a husband, wife and 1 yr old",Moment,48.5591,13.43267,333,Germany
@@ -305,4 +305,4 @@ dateArr,dateDep,Place,Type,Latitude,Longitude,Elevation,Country
 2016-06-16,2016-06-16,Das Lille coffee shop,Restaurant,60.3670746,6.181409,43,Norway
 2016-06-16,2016-06-16,Noboun Pub,Restaurant,60.3670746,6.181409,43,Norway
 2016-06-16,2016-06-16,Tightrope in the park,Moment,60.3670746,6.181409,43,Norway
-2016-06-16,2016-06-16,Being five Kronas short for our bus tickets,60.3670746,6.181409,43,Norway
+2016-06-16,2016-06-16,Being five Kronas short for our bus tickets,Moment,60.3670746,6.181409,43,Norway

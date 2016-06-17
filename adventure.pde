@@ -18,64 +18,62 @@ enum Mix {
   Tone
 }
 
+String country = "Slovenia";
+
 void setup() {
   //Set up canvas
   size(1600, 900);
   background(r,g,b);
   ellipseMode(CENTER);
-  rectMode(CORNERS);
+  rectMode(CORNERS);  
   
   // Set up table
-  adventure = loadTable("adventure.csv", "header");
-  latMinMax = findMaxMin("Latitude");
-  longMinMax = findMaxMin("Longitude");
-
-  getCoords("Country");
-  paintLayer();
+  adventure = loadTable("events.csv", "header");
+  latMinMax = findMaxMin("Latitude", country);
+  longMinMax = findMaxMin("Longitude", country);
   
-  getCoords("City");
-  paintLayer();
-  
-  getCoords("Home");
-  paintLayer();
-  
-  getCoords("Moment");
+  getCoords(country);
   paintLayer();
 } 
 
 void draw(){
 }
 
-PVector findMaxMin(String rowTitle) {
+PVector findMaxMin(String rowTitle, String countryName) {
   PVector minMax = new PVector(0, 0);
   FloatList values = new FloatList();
   
   for (TableRow row : adventure.rows()) {  
-    float valNum = row.getFloat(rowTitle);
-    values.append(valNum);
+    String selectCountry = row.getString("Country");
+ 
+    if (selectCountry.equals(countryName)){   
+      float valNum = row.getFloat(rowTitle);
+      values.append(valNum);
+    }
   }
   
   minMax.x = values.min();
   minMax.y = values.max();
+  
   return minMax;
 }
 
-void getCoords(String rowType){
+void getCoords(String countryName){
   for (TableRow row : adventure.rows()) {  
-    String checkCountryOrCity = row.getString("Type"); 
+    String selectCountry = row.getString("Country"); 
     
-    if (checkCountryOrCity.equals(rowType)){
+    if (selectCountry.equals(countryName)){
     //execute this
      String place = row.getString("Place"); 
      places.append(place);
      
-     float latitude = row.getFloat("Latitude"); 
-     latitude = map(latitude, latMinMax.x, latMinMax.y, 100, width-100);
-     latitudes.append(latitude);
-     
-     float longitude = row.getFloat("Longitude");
-     longitude = map(longitude, longMinMax.y, longMinMax.x, 100, height-100);
+     float longitude = row.getFloat("Longitude"); 
+     longitude = map(longitude, longMinMax.x, longMinMax.y, 100, width-100);
      longitudes.append(longitude);
+     
+     float latitude = row.getFloat("Latitude");
+     latitude = map(latitude, latMinMax.y, latMinMax.x, 100, height-100);
+     latitudes.append(latitude);
     }
   }
 }
@@ -91,9 +89,9 @@ void paintLayer(){
   for (int i = 0; i < places.size(); i++){
     println(places.get(i));
     for (int r = 0; r < 400; r++) {   
-      float lat2 = latitudes.get(i) + random(-1,1)*random(200,400);
-      float long2 = longitudes.get(i) + random(-1,1)*random(50,100);
-      rect(latitudes.get(i),longitudes.get(i),lat2,long2);
+      float long2 = longitudes.get(i) + random(-1,1)*random(200,400);
+      float lat2 = latitudes.get(i) + random(-1,1)*random(50,100);
+      rect(longitudes.get(i),latitudes.get(i),long2,lat2);
     }
   }
   places.clear();
