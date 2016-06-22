@@ -81,9 +81,9 @@ void getCoords(String countryName){
 void paintLayer(){
   noStroke();
   
-  r = calcMix(r, 0.05, Mix.Tint);
-  g = calcMix(g, 0.05, Mix.Tint);
-  b = calcMix(b, 0.05, Mix.Tint);
+  r = calcMix(r, 0.10, Mix.Tint);
+  g = calcMix(g, 0.10, Mix.Tint);
+  b = calcMix(b, 0.10, Mix.Tint);
   fill(r, g, b, 100);
   
   for (int i = 0; i < places.size(); i++){
