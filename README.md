@@ -3,17 +3,24 @@ Using the data collected on my European trip - I'm going to attempt, attempt bei
 
 Here goes nothing.
 
-Data collecting:
+Divided data into two groups:
 
+Countries:
   * dateArr
   * dateDep
   * place
   * type
-  * longitude
   * latitude
-  * elevation
+  * longitude
+  * main flag colors(color1, color2, color3)
 
-Hopefully this is enough data to work with :)
+ Events(City, Home, Restaurant, Attraction, Moment):
+  * dateArr
+  * dateDep
+  * place
+  * type
+  * latitude
+  * longitude
+  * country
+
 And hopefully somewhere near the end of it, I can release a version where anyone can enter their own data and colours to create their own piece.
-
-
