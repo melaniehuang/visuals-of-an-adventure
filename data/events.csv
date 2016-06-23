@@ -308,6 +308,7 @@ dateArr,dateDep,Place,Type,Latitude,Longitude,Elevation,Country
 2016-06-16,2016-06-16,Tightrope in the park,Moment,60.3670746,6.181409,43,Norway
 2016-06-16,2016-06-16,Being five Kronas short for our bus tickets,Moment,60.3670746,6.181409,43,Norway
 2016-06-17,2016-06-17,Rejkyvik,City,60.0,5.0,1,Iceland
+2016-06-17,2016-06-24,Campervan,Home,60.0,5.0,1,Iceland
 2016-06-17,2016-06-17,Villin,Restaurant,60.0,5.0,1,Iceland
 2016-06-17,2016-06-17,The worst crab soup imaginable and curry fish and chips,Moment,60.0,5.0,1,Iceland
 2016-06-17,2016-06-18,Thingvallir,City,60.0,5.0,1,Iceland
@@ -325,6 +326,7 @@ dateArr,dateDep,Place,Type,Latitude,Longitude,Elevation,Country
 2016-06-20,2016-06-20,"Iclandic fish soup, Atlantic Char, fermented shark and a shot of Icelandic something",Moment,60.0,5.0,1,Iceland
 2016-06-20,2016-06-20,Playing pool with the Icelandic and Thai boy,Moment,60.0,5.0,1,Iceland
 2016-06-20,2016-06-20,Fishing the pier dry of monkfish,Moment,60.0,5.0,1,Iceland
+2016-06-19,2016-06-20,Dalvik Pier,Attraction,60.0,5.0,1,Iceland
 2016-06-19,2016-06-19,Reeling in a total of 30 fish in Dalvik,Moment,60.0,5.0,1,Iceland
 2016-06-21,2016-06-21,Getting a parking fine for not having a Akureyri clock,Moment,60.0,5.0,1,Iceland
 2016-06-20,2016-06-20,Akureyri,City,60.0,5.0,1,Iceland
@@ -334,6 +336,18 @@ dateArr,dateDep,Place,Type,Latitude,Longitude,Elevation,Country
 2016-06-21,2016-06-21,Smoked Raw Lamb,Moment,60.0,5.0,1,Iceland
 2016-06-21,2016-06-21,Grjótagjá cave,Attraction,60.0,5.0,1,Iceland
 2016-06-21,2016-06-22,Hvammstangi,City,60.0,5.0,1,Iceland
+2016-06-21,2016-06-21,Hvammstangi Pier,Attraction,60.0,5.0,1,Iceland
 2016-06-21,2016-06-21,Freezing our hands off trying to fish the Hvammstangi pier,Moment,60.0,5.0,1,Iceland
 2016-06-21,2016-06-21,Summer Solstice's 24 hours of daylight,Moment,60.0,5.0,1,Iceland
 2016-06-22,2016-06-22,Watching Iceland score in the last 30 seconds before the end of the match with all the servo staff,Moment,60.0,5.0,1,Iceland
+2016-06-22,2016-06-22,Akranes Pier,Attraction,60.0,5.0,1,Iceland
+2016-06-22,2016-06-22,Arriving in Reykjvik to realise that the entire Iceland had obliterated themselves because of their win,Moment,60.0,5.0,1,Iceland
+2016-06-22,2016-06-22,Crazy fog whilst we drive to a sleep spot,Moment,60.0,5.0,1,Iceland
+2016-06-22,2016-06-22,Driving out of the fog to a mountain top and the coloured sky,Moment,60.0,5.0,1,Iceland
+2016-06-23,2016-06-23,Raufarholshellir Noas cave,Attraction,60.0,5.0,1,Iceland
+2016-06-23,2016-06-23,Andy running ahead and popping his head from above me in the cave,Moment,60.0,5.0,1,Iceland
+2016-06-23,2016-06-23,Sægreifinn,Restaurant,60.0,5.0,1,Iceland
+2016-06-23,2016-06-23,Hilariously bad tom yum flavoured Icelandic lobster soup,Moment,60.0,5.0,1,Iceland
+2016-06-23,2016-06-23,Keflavik Pier,Attraction,60.0,5.0,1,Iceland
+2016-06-23,2016-06-23,Pulling in fish while everyone else ate our dust,Moment,60.0,5.0,1,Iceland
+2016-06-23,2016-06-23,Blue Lagoon,Attraction,60.0,5.0,1,Iceland
