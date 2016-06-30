@@ -307,23 +307,25 @@ dateArr,dateDep,Place,Type,Latitude,Longitude,Elevation,Country
 2016-06-16,2016-06-16,Das Lille coffee shop,Restaurant,60.3670746,6.181409,43,Norway
 2016-06-16,2016-06-16,Noboun Pub,Restaurant,60.3670746,6.181409,43,Norway
 2016-06-16,2016-06-16,Tightrope in the park,Moment,60.3670746,6.181409,43,Norway
-2016-06-17,2016-06-17,Rejkyvik,City,60.0,5.0,1,Iceland
-2016-06-17,2016-06-24,Campervan,Home,60.0,5.0,1,Iceland
-2016-06-17,2016-06-17,Villin,Restaurant,60.0,5.0,1,Iceland
-2016-06-17,2016-06-17,The worst crab soup imaginable and curry fish and chips,Moment,60.0,5.0,1,Iceland
-2016-06-17,2016-06-18,Thingvallir,City,60.0,5.0,1,Iceland
-2016-06-17,2016-06-17,Thingvellir National Park,Attraction,60.0,5.0,1,Iceland
-2016-06-17,2016-06-17,Getting kicked out of a national park at 12:30am and told to move,Moment,60.0,5.0,1,Iceland
-2016-06-18,2016-06-18,Kogir crater lake,Attraction,60.0,5.0,1,Iceland
-2016-06-18,2016-06-18,First servo hot dog,Moment,60.0,5.0,1,Iceland
-2016-06-18,2016-06-18,Selfoss,City,60.0,5.0,1,Iceland
-2016-06-18,2016-06-18,Finding the Selfoss fishing store and worms,Moment,60.0,5.0,1,Iceland
+2016-06-17,2016-06-17,Rejkyvik,City,64.126521,-21.817439,48,Iceland
+2016-06-17,2016-06-24,Campervan,Home,63.9961355,-22.6234085,40,Iceland
+2016-06-17,2016-06-17,Vitiin,Restaurant,64.0404709,-22.7122056,0,Iceland
+2016-06-17,2016-06-17,The worst crab soup imaginable and curry fish and chips,Moment,64.0404709,-22.7122056,0,Iceland
+2016-06-17,2016-06-18,Thingvallir,City,64.255857,-21.1303622,131,Iceland
+2016-06-17,2016-06-17,Thingvellir National Park,Attraction,64.255857,-21.1303622,131,Iceland
+2016-06-17,2016-06-17,Getting kicked out of a national park at 12:30am and told to move,Moment,64.255857,-21.1303622,131,Iceland
+2016-06-18,2016-06-18,Korid crater lake,Attraction,64.0412777,-20.8851385,79,Iceland
+2016-06-18,2016-06-18,First servo hot dog,Moment,-20.8851385,-21.8263578,0,Iceland
+2016-06-18,2016-06-18,Selfoss,City,63.9334611,-21.0013833,10,Iceland
+2016-06-18,2016-06-18,Veiðisport,City,63.93617515,-21.00711465,10,Iceland
+2016-06-18,2016-06-18,Finding the Veiðisport Selfoss fishing store and worms,Moment,63.93617515,-21.00711465,10,Iceland
+
 2016-06-19,2016-06-19,Bottomless coffee and hanging out at the servos,Moment,60.0,5.0,1,Iceland
 2016-06-19,2016-06-21,Dalvik,City,60.0,5.0,1,Iceland
 2016-06-19,2016-06-19,The night we found fishing heaven,Moment,60.0,5.0,1,Iceland
 2016-06-20,2016-06-20,Fishing by hitting a fish on the head with a sinker,Moment,60.0,5.0,1,Iceland
 2016-06-20,2016-06-20,Gregor's Pub,Restaurant,60.0,5.0,1,Iceland
-2016-06-20,2016-06-20,"Icelandic fish soup, Atlantic Char, fermented shark and a shot of Icelandic something",Moment,60.0,5.0,1,Iceland
+2016-06-20,2016-06-20,"Icelandic fish soup, Atlantic Char, fermented shark and a shot of Icelandic Brennivin",Moment,60.0,5.0,1,Iceland
 2016-06-20,2016-06-20,Playing pool with the Icelandic and Thai boy,Moment,60.0,5.0,1,Iceland
 2016-06-20,2016-06-20,Fishing the pier dry of monkfish,Moment,60.0,5.0,1,Iceland
 2016-06-19,2016-06-20,Dalvik Pier,Attraction,60.0,5.0,1,Iceland
@@ -351,21 +353,25 @@ dateArr,dateDep,Place,Type,Latitude,Longitude,Elevation,Country
 2016-06-23,2016-06-23,Keflavik Pier,Attraction,60.0,5.0,1,Iceland
 2016-06-23,2016-06-23,Pulling in fish while everyone else ate our dust,Moment,60.0,5.0,1,Iceland
 2016-06-23,2016-06-23,Blue Lagoon,Attraction,60.0,5.0,1,Iceland
-2016-06-24,2016-06-28,London,City,60.0,5.0,1,Iceland
-2016-06-29,2016-06-29,Studio Pimlico,Home,60.0,5.0,1,Czech Republic
-2016-06-24,2016-06-24,Pub Amy/Matt,Restaurant,60.0,5.0,1,England
-2016-06-24,2016-06-24,Singing Waterloo on the way home,Restaurant,60.0,5.0,1,England
-2016-06-25,2016-06-25,Over at Amy's playing trivia with Harriet,Restaurant,60.0,5.0,1,England
-2016-06-25,2016-06-25,Gay Pride taking over the streets of London,Moment,60.0,5.0,1,England
-2016-06-26,2016-06-26,The Grosvenor,Restaurant,60.0,5.0,1,England
-2016-06-26,2016-06-26,Sunday roast at The Grosvenor,Moment,60.0,5.0,1,England
-2016-06-26,2016-06-26,Burger and Lobster,Restaurant,60.0,5.0,1,England
-2016-06-26,2016-06-26,Movie night date night at the cinema,Moment,60.0,5.0,1,England
-2016-06-27,2016-06-27,Book binging at Foyles,Moment,60.0,5.0,1,England
-2016-06-27,2016-06-27,Book of Mormon Lottery,Moment,60.0,5.0,1,England
-2016-06-27,2016-06-27,Dumpling Legends,Restaurant,60.0,5.0,1,England
-2016-06-27,2016-06-27,Watching Iceland beat England,Moment,60.0,5.0,1,England
-2016-06-28,2016-06-28,SeaFresh,Restaurant,60.0,5.0,1,England
-2016-06-28,2016-07-03,Prague,City,60.0,5.0,1,Czech Republic
-2016-06-29,2016-06-29,Hotel Dar,Home,60.0,5.0,1,Czech Republic
-2016-06-29,2016-07-03,New & cozy near the centre,Home,60.0,5.0,1,Czech Republic
+
+2016-06-24,2016-06-28,London,City,51.5073509,-0.1277583,20,United Kingdom
+2016-06-29,2016-06-29,Studio Pimlico,Home,51.4872124,-0.1366052,13,United Kingdom
+2016-06-24,2016-06-24,Marquis Pub,Restaurant,51.491829,-0.140922,11,United Kingdom
+2016-06-25,2016-06-25,Over at Amy's playing trivia with Harriet,Restaurant,51.485566,0.0085754,11,United Kingdom
+2016-06-25,2016-06-25,Gay Pride taking over the streets of London,Moment,51.510478,-0.1300343,30,United Kingdom
+2016-06-26,2016-06-26,The Grosvenor,Restaurant,51.4865897,-0.1315339,7,United Kingdom
+2016-06-26,2016-06-26,Sunday roast at The Grosvenor,Moment,51.4865897,-0.1315339,7,United Kingdom
+2016-06-26,2016-06-26,Burger and Lobster,Restaurant,51.5135271,-0.1322777,34,United Kingdom
+2016-06-26,2016-06-26,Movie night date night at the cinema,Moment,51.5104894,-0.1294109,30,United Kingdom
+2016-06-27,2016-06-27,Book binging at Foyles,Moment,51.5143039,-0.1298888,34,United Kingdom
+2016-06-27,2016-06-27,Book of Mormon Lottery,Moment,51.5102222,-0.1320712,35,United Kingdom
+2016-06-27,2016-06-27,Dumpling Legends,Restaurant,51.5116966,-0.1315114,33,United Kingdom
+2016-06-27,2016-06-27,Watching Iceland beat England,Moment,51.4872124,-0.1366052,13,United Kingdom
+2016-06-28,2016-06-28,SeaFresh,Restaurant,51.4925194,-0.1400542,11,United Kingdom
+2016-06-28,2016-07-03,Prague,City,50.0755381,14.4378005,248,Czech Republic
+2016-06-29,2016-06-29,Hotel Dar,Home,50.0863407,14.4192192,193,Czech Republic
+2016-06-29,2016-06-29,Restaurace Mlejnice,Restaurant,50.0864257,14.4215462,193,Czech Republic
+2016-06-29,2016-07-03,New & cozy near the centre,Home,50.0854072,14.3740317,302,Czech Republic
+2016-06-30,2016-06-30,U Kroka,Restaurant,50.0665822,14.4156487,200,Czech Republic
+2016-06-30,2016-06-30,Hell Bells Pub,Restaurant,50.0980354,14.4244856,228,Czech Republic
+2016-06-30,2016-06-30,Metal warrior doing Coke from a mint box,Restaurant,50.0980354,14.4244856,228,Czech Republic

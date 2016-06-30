@@ -32,6 +32,12 @@ void setup() {
   latMinMax = findMaxMin("Latitude", country);
   longMinMax = findMaxMin("Longitude", country);
   
+  for(int i = 0; i < height; i++){
+    float c = random(0,20);
+    stroke(23-c,100-c,190-c);
+    line(0,i,width,i);
+  }
+  
   getCoords(country);
   paintLayer();
 } 
@@ -84,7 +90,7 @@ void paintLayer(){
   r = calcMix(r, 0.10, Mix.Tint);
   g = calcMix(g, 0.10, Mix.Tint);
   b = calcMix(b, 0.10, Mix.Tint);
-  fill(r, g, b, 100);
+  fill(r, g, b, 20);
   
   for (int i = 0; i < places.size(); i++){
     println(places.get(i));
