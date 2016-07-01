@@ -1,31 +1,16 @@
-Table adventure;
-StringList countries = new StringList();
+String country = "Romania";
 
 Table countryList;
-int[] color1 = new int[3];
-int[] color2 = new int[3];
-int[] color3 = new int[3];
+int[] color1, color2, color3 = new int[3];
+float r,g,b;
+PFont font;
 
-float r = 5;
-float g = 27;
-float b = 100;
-
-PVector latMinMax;
-PVector longMinMax;
-
+Table adventure;
+StringList countries = new StringList();
+PVector latMinMax, longMinMax;
 StringList places = new StringList();
 FloatList latitudes = new FloatList();
 FloatList longitudes = new FloatList();
-
-int counter = 0;
-
-enum Mix {
-  Tint,
-  Shade,
-  Tone
-}
-
-String country = "United Kingdom";
 
 void setup() {
   //Set up canvas
@@ -47,7 +32,11 @@ void setup() {
       String getColor1 = row.getString("Color1");
       color1 = convertColor(getColor1);
       println(color1);
-      background(color1[0],color1[1],color1[2]);
+      
+      r = color1[0];
+      g = color1[1];
+      b = color1[2];
+      background(r,g,b);
       
       for (int i = 0; i < height; i++){
        stroke(255,50+random(-50,50));
@@ -80,8 +69,15 @@ void setup() {
       }
     } 
   }
-  //getCoords(country);
-  //paintLayer();
+  
+  font = loadFont("TitilliumWeb-Regular-32.vlw");
+  fill(255);
+  textAlign(RIGHT);
+  textFont(font,22);
+  text(country, width-50, height - 50); 
+
+  getCoords(country);
+  paintLayer();
 } 
 
 void draw(){
@@ -141,38 +137,12 @@ void getCoords(String countryName){
 void paintLayer(){
   noStroke();
   
-  r = calcMix(r, 0.10, Mix.Tint);
-  g = calcMix(g, 0.10, Mix.Tint);
-  b = calcMix(b, 0.10, Mix.Tint);
-  fill(r, g, b, 20);
-  
+  fill(255,20);
   for (int i = 0; i < places.size(); i++){
-    //println(places.get(i));
-    for (int r = 0; r < 400; r++) {   
-      float long2 = longitudes.get(i) + random(-1,1)*random(200,400);
-      float lat2 = latitudes.get(i) + random(-1,1)*random(50,100);
-      rect(longitudes.get(i),latitudes.get(i),long2,lat2);
-    }
+    ellipse(longitudes.get(i), latitudes.get(i),100,100);
   }
+  
   places.clear();
   latitudes.clear();
   longitudes.clear();
 }
-
-float calcMix(float c, float amount, Mix mixType){
-  switch (mixType) {
-    case Tint:
-      return c + (amount * (255 - c));  
-    case Shade:
-      return c * amount;
-    case Tone:
-      return 0;
-    default:
-      return 0;
-  }
-}
-
-// Note to self: To reference a String - 
-// String goobley = row.getString("Type"); 
-// if (goobley.equals("Attraction")){
-// x = latitude, y = longitude
