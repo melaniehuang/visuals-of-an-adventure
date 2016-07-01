@@ -2,9 +2,9 @@ Table adventure;
 StringList countries = new StringList();
 
 Table countryList;
-int[] color1;
-int[] color2;
-int[] color3;
+int[] color1 = new int[3];
+int[] color2 = new int[3];
+int[] color3 = new int[3];
 
 float r = 5;
 float g = 27;
@@ -25,7 +25,7 @@ enum Mix {
   Tone
 }
 
-String country = "Thailand";
+String country = "United Kingdom";
 
 void setup() {
   //Set up canvas
@@ -53,15 +53,15 @@ void setup() {
        stroke(255,50+random(-50,50));
        line(0,i,width,i);
       }
-      
-      if (row.getString("Color2") != ""){
-        String getColor2 = row.getString("Color2");
-        color2 = convertColor(getColor2);
-        println(color2);
+
+      if (!row.getString("Color2").equals("")){
+       String getColor2 = row.getString("Color2");
+       color2 = convertColor(getColor2);
+       println(color2);
         
-        fill(color2[0],color2[1],color2[2],100);
-        noStroke();
-        rect(0,0,width,height);
+       fill(color2[0],color2[1],color2[2],100);
+       noStroke();
+       rect(0,0,width,height);
       }
       
       for (int i = 0; i < height; i++){
@@ -69,7 +69,7 @@ void setup() {
         line(0,i,width,i);
       }
       
-      if (row.getString("Color3") != ""){
+      if (!row.getString("Color3").equals("")){
         String getColor3 = row.getString("Color3");
         color3 = convertColor(getColor3);
         println(color3);
@@ -91,7 +91,7 @@ int[] convertColor (String countryColor){
   int[] getHexColors = new int[3];
   
   for (int i = 0; i < 3; i++){
-    String cHex = countryColor.substring(i*2,(i*2)+2);
+    String cHex = countryColor.substring(i*2,2+(i*2));
     int c = unhex(cHex);
     getHexColors[i] = c;
   }
@@ -108,14 +108,14 @@ PVector findMaxMin(String rowTitle, String countryName) {
  
     if (selectCountry.equals(countryName)){   
       float valNum = row.getFloat(rowTitle);
-      values.append(valNum);
+      values.append(valNum); 
     }
   }
+    
+    minMax.x = values.min();
+    minMax.y = values.max();
   
-  minMax.x = values.min();
-  minMax.y = values.max();
-  
-  return minMax;
+    return minMax;
 }
 
 void getCoords(String countryName){
