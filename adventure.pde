@@ -1,6 +1,15 @@
 Table adventure;
 StringList countries = new StringList();
 
+Table countryList;
+int[] color1;
+int[] color2;
+int[] color3;
+
+float r = 5;
+float g = 27;
+float b = 100;
+
 PVector latMinMax;
 PVector longMinMax;
 
@@ -8,9 +17,7 @@ StringList places = new StringList();
 FloatList latitudes = new FloatList();
 FloatList longitudes = new FloatList();
 
-float r = 5;
-float g = 27;
-float b = 72;
+int counter = 0;
 
 enum Mix {
   Tint,
@@ -18,12 +25,11 @@ enum Mix {
   Tone
 }
 
-String country = "Slovenia";
+String country = "Thailand";
 
 void setup() {
   //Set up canvas
   size(1600, 900);
-  background(r,g,b);
   ellipseMode(CENTER);
   rectMode(CORNERS);  
   
@@ -32,17 +38,65 @@ void setup() {
   latMinMax = findMaxMin("Latitude", country);
   longMinMax = findMaxMin("Longitude", country);
   
-  for(int i = 0; i < height; i++){
-    float c = random(0,20);
-    stroke(23-c,100-c,190-c);
-    line(0,i,width,i);
-  }
+  countryList = loadTable("countries.csv", "header");
   
-  getCoords(country);
-  paintLayer();
+  for (TableRow row : countryList.rows()) { 
+    String checkCountry = row.getString("Place");
+    
+    if (checkCountry.equals(country)){
+      String getColor1 = row.getString("Color1");
+      color1 = convertColor(getColor1);
+      println(color1);
+      background(color1[0],color1[1],color1[2]);
+      
+      for (int i = 0; i < height; i++){
+       stroke(255,50+random(-50,50));
+       line(0,i,width,i);
+      }
+      
+      if (row.getString("Color2") != ""){
+        String getColor2 = row.getString("Color2");
+        color2 = convertColor(getColor2);
+        println(color2);
+        
+        fill(color2[0],color2[1],color2[2],100);
+        noStroke();
+        rect(0,0,width,height);
+      }
+      
+      for (int i = 0; i < height; i++){
+        stroke(255,20+random(-20,20));
+        line(0,i,width,i);
+      }
+      
+      if (row.getString("Color3") != ""){
+        String getColor3 = row.getString("Color3");
+        color3 = convertColor(getColor3);
+        println(color3);
+        
+        fill(color3[0],color3[1],color3[2],50);
+        noStroke();
+        rect(0,0,width,height);
+      }
+    } 
+  }
+  //getCoords(country);
+  //paintLayer();
 } 
 
 void draw(){
+}
+
+int[] convertColor (String countryColor){
+  int[] getHexColors = new int[3];
+  
+  for (int i = 0; i < 3; i++){
+    String cHex = countryColor.substring(i*2,(i*2)+2);
+    int c = unhex(cHex);
+    getHexColors[i] = c;
+  }
+  
+  return getHexColors;
 }
 
 PVector findMaxMin(String rowTitle, String countryName) {
@@ -93,7 +147,7 @@ void paintLayer(){
   fill(r, g, b, 20);
   
   for (int i = 0; i < places.size(); i++){
-    println(places.get(i));
+    //println(places.get(i));
     for (int r = 0; r < 400; r++) {   
       float long2 = longitudes.get(i) + random(-1,1)*random(200,400);
       float lat2 = latitudes.get(i) + random(-1,1)*random(50,100);
