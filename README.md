@@ -25,7 +25,7 @@ Countries:
 
 And hopefully somewhere near the end of it, I can release a version where anyone can enter their own data and colours to create their own piece.
 
-![Greece](http://imgur.com/kISEL1D)
-![Romania](http://imgur.com/Lk3PYuh)
-![Iceland](http://imgur.com/qbQS688)
-![Germany](http://imgur.com/T84EjEF)
+![Greece](http://i.imgur.com/kISEL1D.png)
+![Romania](http://i.imgur.com/Lk3PYuh.png)
+![Iceland](http://i.imgur.com/qbQS688.png)
+![Germany](http://i.imgur.com/T84EjEF.png)
