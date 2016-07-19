@@ -1,5 +1,7 @@
 /*
 
+- TODO: ADD MOVEMENT
+
 - TODO: ADD COUNTRY SIZE CONTEXT
 - Population size
 - Country shape etc.

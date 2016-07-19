@@ -1,4 +1,4 @@
-String country = "Romania";
+String country = "Greece";
 
 Table countryList;
 int[] color1, color2, color3 = new int[3];
@@ -16,7 +16,7 @@ void setup() {
   //Set up canvas
   size(1600, 900);
   ellipseMode(CENTER);
-  rectMode(CORNERS);  
+  rectMode(CORNER);  
   
   // Set up table
   adventure = loadTable("events.csv", "header");
@@ -80,7 +80,7 @@ void setup() {
   paintLayer();
 } 
 
-void draw(){
+void draw(){  
 }
 
 int[] convertColor (String countryColor){
@@ -136,12 +136,12 @@ void getCoords(String countryName){
 
 void paintLayer(){
   noStroke();
-  
-  fill(255,20);
+    
   for (int i = 0; i < places.size(); i++){
-    ellipse(longitudes.get(i), latitudes.get(i),100,100);
+    color p = get(int(longitudes.get(i)), int(latitudes.get(i)));
+    fill(p,100);
+    rect(longitudes.get(i), latitudes.get(i),width,20);
   }
-  
   places.clear();
   latitudes.clear();
   longitudes.clear();
