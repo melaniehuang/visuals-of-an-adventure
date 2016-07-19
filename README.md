@@ -29,3 +29,5 @@ And hopefully somewhere near the end of it, I can release a version where anyone
 ![Romania](http://i.imgur.com/Lk3PYuh.png)
 ![Iceland](http://i.imgur.com/qbQS688.png)
 ![Germany](http://i.imgur.com/T84EjEF.png)
+
+Thanks to [Piérre](https://github.com/reimertz) for his brilliant [flag-colors](https://github.com/reimertz/flag-colors) json with all the hex values from the wiki world flags.
