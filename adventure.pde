@@ -1,4 +1,4 @@
-String country = "Greece";
+String country = "Australia";
 
 Table countryList;
 int[] color1, color2, color3 = new int[3];
@@ -74,7 +74,7 @@ void setup() {
   fill(255);
   textAlign(RIGHT);
   textFont(font,22);
-  text(country, width-50, height - 50); 
+  //text(country, width-50, height - 50); 
 
   getCoords(country);
   paintLayer();
