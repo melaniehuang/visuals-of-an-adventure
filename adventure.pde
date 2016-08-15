@@ -12,7 +12,7 @@ FloatList longitudes = new FloatList();
 int flashCount = 0;
 
 void setup(){
-  size(1600,900);
+  size(displayWidth,displayHeight);
   background(230);
   
   countryList = loadTable("countries.csv", "header");
@@ -44,6 +44,9 @@ void draw(){
   } else {
     getCoords(country, 20);
   }
+  fill(255);
+  textAlign(RIGHT);
+  text(country,width-40, height-70);
 }
 
 void mousePressed(){
