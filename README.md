@@ -23,7 +23,7 @@ Countries:
   * country
 
 Outcome:
-![Animated run-through](http://i.imgur.com/ARgdOYO.gifv)
+![Animated run-through](http://i.imgur.com/ARgdOYO.gif)
 
 ![Greece](http://i.imgur.com/wlcXRc5.png)
 ![Germany](http://i.imgur.com/PeozHgD.png)
