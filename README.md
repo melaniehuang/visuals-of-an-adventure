@@ -1,7 +1,5 @@
 # visuals-of-an-adventure
-Using the data collected on my European trip - I'm going to attempt, attempt being the key word, to create an abstract representation of the data to live on a screen in our living room. 
-
-Here goes nothing.
+Using the data collected on my European trip, create an abstract representation for our living room. 
 
 Divided data into two groups:
 
@@ -21,13 +19,11 @@ Countries:
   * type
   * latitude
   * longitude
+  * elevation
   * country
 
-And hopefully somewhere near the end of it, I can release a version where anyone can enter their own data and colours to create their own piece.
-
-![Greece](http://i.imgur.com/kISEL1D.png)
-![Romania](http://i.imgur.com/Lk3PYuh.png)
-![Iceland](http://i.imgur.com/qbQS688.png)
-![Germany](http://i.imgur.com/T84EjEF.png)
+Outcome:
+![Greece](http://i.imgur.com/wlcXRc5.png)
+![Germany](http://i.imgur.com/PeozHgD.png)
 
 Thanks to [Piérre](https://github.com/reimertz) for his brilliant [flag-colors](https://github.com/reimertz/flag-colors) json with all the hex values from the wiki world flags.
