@@ -1,152 +1,54 @@
-String country = "Norway";
-
 Table countryList;
-int[] color1, color2, color3 = new int[3];
-float r,g,b;
-PFont font;
+Table eventList;
 
-Table adventure;
-StringList countries = new StringList();
-PVector latMinMax, longMinMax;
-StringList places = new StringList();
-FloatList latitudes = new FloatList();
-FloatList longitudes = new FloatList();
+String country = "Thailand";
 StringList countriesVisited = new StringList();
 
-void setup() {
-  size(1600, 900);
-  ellipseMode(CENTER);
-  rectMode(CORNER);  
-  
-  adventure = loadTable("events.csv", "header");
-  latMinMax = findMaxMin("Latitude", country);
-  longMinMax = findMaxMin("Longitude", country);
+int color1, color2, color3;
+
+PVector latMinMax, longMinMax;
+FloatList latitudes = new FloatList();
+FloatList longitudes = new FloatList();
+int flashCount = 0;
+
+void setup(){
+  size(1600,900);
+  background(230);
   
   countryList = loadTable("countries.csv", "header");
-  
   for (TableRow cList : countryList.rows()) { 
     countriesVisited.append(cList.getString("Place"));
   }
-} 
+  
+  eventList = loadTable("events.csv", "header");
+  defaultStyles();
+  frameRate(10);
+}
 
 void draw(){  
-  for (TableRow row : countryList.rows()) { 
-    String checkCountry = row.getString("Place");
-    
-    if (checkCountry.equals(country)){
-      String getColor1 = row.getString("Color1");
-      color1 = convertColor(getColor1);
-      //println(color1);
-      
-      r = color1[0];
-      g = color1[1];
-      b = color1[2];
-      background(r,g,b);
-      
-      for (int i = 0; i < height; i++){
-        stroke(255,50+random(-50,50));
-        line(0,i,width,i);
-      }
-
-      if (!row.getString("Color2").equals("")){
-        String getColor2 = row.getString("Color2");
-        color2 = convertColor(getColor2);
-        //println(color2);
-        
-        fill(color2[0],color2[1],color2[2],100);
-        noStroke();
-        rect(0,0,width,height);
-      }
-      
-      for (int i = 0; i < height; i++){
-        stroke(255,20+random(-20,20));
-        line(0,i,width,i);
-      }
-      
-      if (!row.getString("Color3").equals("")){
-        String getColor3 = row.getString("Color3");
-        color3 = convertColor(getColor3);
-        //println(color3);
-        
-        fill(color3[0],color3[1],color3[2],50);
-        noStroke();
-        rect(0,0,width,height);
-      }
-    } 
+  setColors(country);
+  int[] colorList = { color1, color2, color3 };
+  
+  for (int c = 0; c < height; c++){
+    int rIndex = int(random(0,3));  
+    int colorSelected = colorList[rIndex];
+    stroke(colorSelected,40);
+    line(0,c,width,c);
   }
-  paintLayer();
+  
+  latMinMax = findMaxMin("Latitude", country);
+  longMinMax = findMaxMin("Longitude", country);
+  flashCount++;
+  if (flashCount % 2 == 0){
+    getCoords(country, 0);
+  } else {
+    getCoords(country, 20);
+  }
 }
 
 void mousePressed(){
   float randCountry = random(0,countriesVisited.size()-1);
   String countrySelected = countriesVisited.get(floor(randCountry));
-  
   country = countrySelected;
   println(country);
-  
-  getCoords(country);
-}
-
-int[] convertColor (String countryColor){
-  int[] getHexColors = new int[3];
-  
-  for (int i = 0; i < 3; i++){
-    String cHex = countryColor.substring(i*2,2+(i*2));
-    int c = unhex(cHex);
-    getHexColors[i] = c;
-  }  
-  return getHexColors;
-}
-
-PVector findMaxMin(String rowTitle, String countryName) {
-  PVector minMax = new PVector(0, 0);
-  FloatList values = new FloatList();
-  
-  for (TableRow row : adventure.rows()) {  
-    String selectCountry = row.getString("Country");
- 
-    if (selectCountry.equals(countryName)){   
-      float valNum = row.getFloat(rowTitle);
-      values.append(valNum); 
-    }
-  }
-    
-    minMax.x = values.min();
-    minMax.y = values.max();
-  
-    return minMax;
-}
-
-void getCoords(String countryName){
-  for (TableRow row : adventure.rows()) {  
-    String selectCountry = row.getString("Country"); 
-    
-    if (selectCountry.equals(countryName)){
-    //execute this
-     String place = row.getString("Place"); 
-     places.append(place);
-     
-     float longitude = row.getFloat("Longitude"); 
-     longitude = map(longitude, longMinMax.x, longMinMax.y, 100, width-100);
-     longitudes.append(longitude);
-     
-     float latitude = row.getFloat("Latitude");
-     latitude = map(latitude, latMinMax.y, latMinMax.x, 100, height-100);
-     latitudes.append(latitude);
-    }
-  }
-}
-
-void paintLayer(){
-  noStroke();
-  
-  for (int i = 0; i < places.size(); i++){
-    color p = get(int(longitudes.get(i)), int(latitudes.get(i)));
-    fill(p,100);
-    rect(longitudes.get(i), latitudes.get(i),width,20);
-  }
-  
-  places.clear();
-  latitudes.clear();
-  longitudes.clear();
 }
