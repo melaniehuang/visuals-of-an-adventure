@@ -374,45 +374,50 @@ dateArr,dateDep,Place,Type,Latitude,Longitude,Elevation,Country
 2016-06-30,2016-06-30,U Kroka,Restaurant,50.0665822,14.4156487,200,Czech Republic
 2016-06-30,2016-06-30,Hell Bells Pub,Restaurant,50.0980354,14.4244856,228,Czech Republic
 2016-06-30,2016-06-30,Metal warrior doing coke from a mint box,Restaurant,50.0980354,14.4244856,228,Czech Republic
-2016-06-31,2016-06-31,Klasterni Senk,Restaurant,60.0,10.0,1,Czech Republic
-2016-06-31,2016-06-31,Giant ribs,Moment,60.0,10.0,1,Czech Republic
-2016-06-31,2016-06-31,Sheep cheese potato dumplings,Moment,60.0,10.0,1,Czech Republic
-2016-07-01,2016-07-02,Poor Bunts is sick again,Moment,60.0,10.0,1,Czech Republic
-2016-07-03,2016-07-03,Mel teases Bunts about getting sick,Moment,60.0,10.0,1,Czech Republic
-2016-07-03,2016-07-04,Charles Central,Home,60.0,10.0,1,Czech Republic
-2016-07-03,2016-07-03,Mystik Skate Cup,Attraction,60.0,10.0,1,Czech Republic
-2016-07-04,2016-07-05,Berlin,City,60.0,10.0,1,Germany
-2016-07-04,2016-07-05,Hotel Augusta,Home,60.0,10.0,1,Germany
-2016-07-04,2016-07-04,Gaststatte Zur Kneipe,Restaurant,60.0,10.0,1,Germany
-2016-07-04,2016-07-04,One final meal in Europe with Markus,Moment,60.0,10.0,1,Germany
-2016-07-07,2016-07-09,Cairns,City,60.0,10.0,1,Australia
-2016-07-07,2016-07-09,Reef Palm Motel,Home,60.0,10.0,1,Australia
-2016-07-07,2016-07-07,Smith St Cafe,Restaurant,60.0,10.0,1,Australia
-2016-07-07,2016-07-07,First great coffee in a while,Moment,60.0,10.0,1,Australia
-2016-07-08,2016-07-10,Mel gets sick,Moment,60.0,10.0,1,Australia
-2016-07-08,2016-07-08,Ocean World Seafood banquet,Moment,60.0,10.0,1,Australia
-2016-07-09,2016-07-09,Catchacrab with Tony,Attraction,60.0,10.0,1,Australia
-2016-07-09,2016-07-09,Crab and Estuary cod sashimi,Moment,60.0,10.0,1,Australia
-2016-07-09,2016-07-12,Palm Cove,City,60.0,10.0,1,Australia
-2016-07-09,2016-07-12,Hotel Chancellor Resort,Home,60.0,10.0,1,Australia
-2016-07-09,2016-07-09,Palm Cove Surf Club RSL,Restaurant,60.0,10.0,1,Australia
-2016-07-09,2016-07-12,Palm Cove Jetty fishing small fish,Moment,60.0,10.0,1,Australia
-2016-07-10,2016-07-10,Man pulls in a giant catfish on the pier,Moment,60.0,10.0,1,Australia
-2016-07-10,2016-07-10,Kushi,Restaurant,60.0,10.0,1,Australia
-2016-07-10,2016-07-10,Unexpected fireworks,Moment,60.0,10.0,1,Australia
-2016-07-11,2016-07-11,Hilarious all you can eat brekky at the Surf Club,Moment,60.0,10.0,1,Australia
-2016-07-11,2016-07-11,Fisherman tells us he's pulled in 30 small fishes today,Moment,60.0,10.0,1,Australia
-2016-07-11,2016-07-11,Jasmine Rice,Restaurant,60.0,10.0,1,Australia
-2016-07-12,2016-07-12,The Chill Cafe,Restaurant,60.0,10.0,1,Australia
-2016-07-12,2016-07-12,Solid brekky and coffee,Restaurant,60.0,10.0,1,Australia
-2016-07-12,2016-07-12,Hiring a car to see the Daintree and Mossman Gorge,Moment,60.0,10.0,1,Australia
-2016-07-12,2016-07-12,Bruce Belcher's River Tours,Attraction,60.0,10.0,1,Australia
-2016-07-12,2016-07-12,Seeing fatty Scarface come out of the water,Moment,60.0,10.0,1,Australia
-2016-07-12,2016-07-12,Seeing the mother croc open her mouth,Moment,60.0,10.0,1,Australia
-2016-07-12,2016-07-12,Mossman Gorge,Attraction,60.0,10.0,1,Australia
-2016-07-12,2016-07-12,Rainforest circuit looking for frogs,Moment,60.0,10.0,1,Australia
-2016-07-12,2016-07-12,Amazing little swimming hole with perch,Moment,60.0,10.0,1,Australia
-2016-07-12,2016-07-14,Cairns,City,60.0,10.0,1,Australia
-2016-07-12,2016-07-14,Rydges Esplanade Resort,Home,60.0,10.0,1,Australia
-2016-07-13,2016-07-13,Fishing dusk on Marlin Marina in Cairns,Moment,60.0,10.0,1,Australia
-2016-07-13,2016-07-13,Two guys pull in a leopard whipray,Moment,60.0,10.0,1,Australia
+2016-06-31,2016-06-31,Klasterni Senk,Restaurant,50.0839691,14.3566706,325,Czech Republic
+2016-06-31,2016-06-31,Giant ribs,Moment,50.0839691,14.3566706,325,Czech Republic
+2016-06-31,2016-06-31,Sheep cheese potato dumplings,Moment,50.0839691,14.3566706,325,Czech Republic
+2016-07-01,2016-07-02,Poor Bunts is sick again,Moment,50.0854072,14.3740317,302,Czech Republic
+2016-07-03,2016-07-03,Mel teases Bunts about getting sick,Moment,50.0854072,14.3740317,302,Czech Republic
+2016-07-03,2016-07-04,Charles Central,Home,50.093304,14.4520627,187,Czech Republic
+2016-07-03,2016-07-03,Mystik Skate Cup,Attraction,50.0956919,14.4416961,188,Czech Republic
+2016-07-04,2016-07-05,Berlin,City,52.5200066,13.404954,36,Germany
+2016-07-04,2016-07-05,Hotel Augusta,Home,52.502259,13.327188,41,Germany
+2016-07-04,2016-07-04,Gaststatte Zur Kneipe,Restaurant,52.5019685,13.3328903,36,Germany
+2016-07-04,2016-07-04,One final meal in Europe with Markus,Moment,52.5019685,13.3328903,36,German
+2016-07-07,2016-07-09,Cairns,City,-16.9185514,145.7780548,0,Australia
+2016-07-07,2016-07-09,Reef Palm Motel,Home,-16.9083929,145.7624196,3,Australia
+2016-07-07,2016-07-07,Smith St Cafe,Restaurant,-16.9066509,145.7593821,3,Australia
+2016-07-07,2016-07-07,First great coffee in a while,Moment,-16.9066509,145.7593821,3,Australia
+2016-07-08,2016-07-10,Mel gets sick,Moment,-16.9083929,145.7624196,3,Australia
+2016-07-08,2016-07-08,Ocean World Seafood banquet,Moment,-16.9030509,145.7570154,3,Australia
+2016-07-09,2016-07-09,Catchacrab with Tony,Attraction,-16.920071,145.780851,3,Australia
+2016-07-09,2016-07-09,Crab and Estuary cod sashimi,Moment,-16.920071,145.780851,3,Australia
+2016-07-09,2016-07-12,Palm Cove,City,-16.74405,145.67095,11,Australia
+2016-07-09,2016-07-12,Hotel Chancellor Resort,Home,-16.741736,145.667496,16,Australia
+2016-07-09,2016-07-09,Palm Cove Surf Club RSL,Restaurant,-16.742616,145.671063,13,Australia
+2016-07-09,2016-07-12,Palm Cove Jetty fishing small fish,Moment,-16.7398729,145.6715575,9,Australia
+2016-07-10,2016-07-10,Man pulls in a giant catfish on the pier,Moment,-16.7398729,145.6715575,9,Australia
+2016-07-10,2016-07-10,Kushi,Restaurant,-16.7469848,145.6708621,9,Australia
+2016-07-10,2016-07-10,Unexpected fireworks,Moment,-16.7469848,145.6708621,9,Australia
+2016-07-11,2016-07-11,Hilarious all you can eat brekky at the Surf Club,Moment,-16.742616,145.671063,13,Australia
+2016-07-11,2016-07-11,Fisherman tells us he's pulled in 30 small fishes today,Moment,-16.7398729,145.6715575,9,Australia
+2016-07-11,2016-07-11,Jasmine Rice,Restaurant,-16.7442313,145.6706609,13,Australia
+2016-07-12,2016-07-12,The Chill Cafe,Restaurant,-16.7494213,145.6709191,10,Australia
+2016-07-12,2016-07-12,Solid brekky and coffee,Restaurant,-16.7494213,145.6709191,10,Australia
+2016-07-12,2016-07-12,Hiring a car to see the Daintree and Mossman Gorge,Moment,-16.74405,145.67095,11,Australia
+2016-07-12,2016-07-12,Driving on the rwong side of the road in your own country,Moment,-16.74405,145.67095,11,Australia
+2016-07-12,2016-07-12,Bruce Belcher's River Tours,Attraction,-16.259018,145.364394,12,Australia
+2016-07-12,2016-07-12,Seeing fatty Scarface come out of the water,Moment,-16.259018,145.364394,12,Australia
+2016-07-12,2016-07-12,Seeing the mother croc open her mouth,Moment,-16.259018,145.364394,12,Australia
+2016-07-12,2016-07-12,Mossman Gorge,Attraction,-16.474417,145.348306,39,Australia
+2016-07-12,2016-07-12,Rainforest circuit looking for frogs,Moment,-16.474417,145.348306,39,Australia
+2016-07-12,2016-07-12,Amazing little swimming hole with perch,Moment,-16.474417,145.348306,39,Australia
+2016-07-12,2016-07-14,Cairns,City,-16.9185514,145.7780548,0,Australia
+2016-07-12,2016-07-14,Rydges Esplanade Resort,Home,-16.914217,145.7699544,3,Australia
+2016-07-13,2016-07-13,Marlin Marina,Attraction,-16.9178492,145.7818848,0,Australia
+2016-07-13,2016-07-13,Fishing dusk on Marlin Marina in Cairns,Moment,-16.9178492,145.7818848,0,Australia
+2016-07-13,2016-07-13,Seeing a whole school of unidentified fish or prawn come past,Moment,-16.9178492,145.7818848,0,Australia
+2016-07-13,2016-07-13,Reeling in some bream and co,Moment,-16.9178492,145.7818848,0,Australia
+2016-07-13,2016-07-13,Two guys pull in a leopard whipray,Moment,-16.9178492,145.7818848,0,Australia
+2016-07-13,2016-07-13,Meeting the NZ girl that caught nothing but played music all night,Moment,-16.9178492,145.7818848,0,Australia

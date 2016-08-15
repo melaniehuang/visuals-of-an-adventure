@@ -1,7 +1,7 @@
 Table countryList;
 Table eventList;
 
-String country = "Thailand";
+String country = "Australia";
 StringList countriesVisited = new StringList();
 
 int color1, color2, color3;
